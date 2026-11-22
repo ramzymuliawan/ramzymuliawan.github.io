@@ -2,14 +2,23 @@
 layout: page
 permalink: /media/
 title: In the Media
-description: Where I have been quoted or covered, and what I have written for the press, grouped by Wikimedia, digital rights, sportswriting, and other work.
 nav: true
 nav_order: 2
 ---
 
 {% assign cat_keys = "wikimedia,digital-rights,sportswriting,other" | split: "," %} {% assign cat_titles = "Wikimedia,Digital
-rights,Sportswriting,Other" | split: "," %} {% for c in cat_keys %} {% assign cov = site.data.media.coverage | where: "category", c %} {% assign wri =
-site.data.media.writing | where: "category", c %} {% if cov.size > 0 or wri.size > 0 %}
+rights,Sportswriting,Other" | split: "," %}
+<nav class="cv-contents" aria-label="In the Media sections">
+  <ul class="list-inline">
+    {% for c in cat_keys %} {% assign cov = site.data.media.coverage | where: "category", c %} {% assign wri = site.data.media.writing | where:
+    "category", c %} {% if cov.size > 0 or wri.size > 0 %}
+    <li class="list-inline-item"><a href="#media-{{ c }}">{{ cat_titles[forloop.index0] }}</a></li>
+    {% endif %} {% endfor %}
+  </ul>
+</nav>
+
+{% for c in cat_keys %} {% assign cov = site.data.media.coverage | where: "category", c %} {% assign wri = site.data.media.writing | where:
+"category", c %} {% if cov.size > 0 or wri.size > 0 %}
 <section aria-labelledby="media-{{ c }}">
   <h2 id="media-{{ c }}" class="mt-4">{{ cat_titles[forloop.index0] }}</h2>
   {% if cov.size > 0 %}

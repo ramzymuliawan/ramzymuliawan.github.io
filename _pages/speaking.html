@@ -2,13 +2,20 @@
 layout: page
 permalink: /speaking/
 title: Speaking and Public Engagement
-description: My talks, panels, and workshops, newest first, grouped by Wikimedia, digital rights, and other work.
 nav: true
 nav_order: 3
 ---
 
-{% assign cat_keys = "wikimedia,digital-rights,other" | split: "," %} {% assign cat_titles = "Wikimedia,Digital rights,Other" | split: "," %} {% for c
-in cat_keys %} {% assign talks = site.data.media.talks | where: "category", c %} {% if talks.size > 0 %}
+{% assign cat_keys = "wikimedia,digital-rights,other" | split: "," %} {% assign cat_titles = "Wikimedia,Digital rights,Other" | split: "," %}
+<nav class="cv-contents" aria-label="Speaking sections">
+  <ul class="list-inline">
+    {% for c in cat_keys %} {% assign talks = site.data.media.talks | where: "category", c %} {% if talks.size > 0 %}
+    <li class="list-inline-item"><a href="#talks-{{ c }}">{{ cat_titles[forloop.index0] }}</a></li>
+    {% endif %} {% endfor %}
+  </ul>
+</nav>
+
+{% for c in cat_keys %} {% assign talks = site.data.media.talks | where: "category", c %} {% if talks.size > 0 %}
 <section aria-labelledby="talks-{{ c }}">
   <h2 id="talks-{{ c }}" class="mt-4">{{ cat_titles[forloop.index0] }}</h2>
   {% include media-list.liquid items=talks embed=true %}
