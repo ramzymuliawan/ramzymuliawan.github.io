@@ -405,3 +405,8 @@ html body .post .cv-plain ul ul {
     max-width: none;
   }
 }
+
+/* 2.5.8: in the narrower talk column, links wrap onto adjacent lines; extra line height keeps 24px between targets. */
+html body .media-list li {
+  line-height: 1.75;
+}
