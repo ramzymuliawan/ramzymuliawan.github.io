@@ -372,6 +372,16 @@ talks:
       - label: Report by ANTARA Sumatera Barat
         url: https://sumbar.antaranews.com/berita/775624/unand-gelar-seminar-internasional-bahas-urgensi-perlindungan-data
 
+  - date: "24 June 2026"
+    category: wikimedia
+    outlet: Konferensi Open Indonesia 2026, BRIN (Jakarta)
+    title: "Panel I: Merajut Manfaat Keterbukaan untuk Semua"
+    url: https://www.openindonesia.id/aktivitas/konferensi-open-indonesia-2026
+    archive: https://web.archive.org/web/20260713030907/https://www.openindonesia.id/aktivitas/konferensi-open-indonesia-2026
+    note: I moderated the panel for the Wikimedia Foundation, with Dasapta Erwin Irawan (ITB), Prayitno (SEAMEO SEAMOLEC), Hendro Subagyo (BRIN), and Zulidyana D. Rusnalasari (Relawan Jurnal Indonesia). Recording (1 h 16 min).
+    lang: id
+    embed: https://www.youtube-nocookie.com/embed/xS1DWbDz_CI
+
   - date: "16 March 2026"
     category: digital-rights
     outlet: Students For Liberty Indonesia and Garis Literasi, Universitas Sumatera Utara (online)
@@ -384,17 +394,41 @@ talks:
         url: https://jurnalpost.com/digital-freedom-project-sfl-indonesia-refleksi-kebebasan-digital-di-indonesia/91800/
     embed: https://www.youtube-nocookie.com/embed/in5k8IFsCBA?start=519
 
+  - date: "28 October 2025"
+    category: digital-rights
+    outlet: Selasa Bersama SAFEnet, public discussion
+    title: "Dari Privasi ke Proteksi: Membangun Regulasi Aman untuk Data Perempuan dan Anak"
+    url: https://www.youtube.com/watch?v=M6UWHlgfcMs&t=12635s
+    archive: https://web.archive.org/web/20251028053113/https://www.youtube.com/watch?v=M6UWHlgfcMs
+    note: I moderated the discussion on the Personal Data Protection Law, with presenters from SAFEnet and LeIP. Recording (5 h 11 min), starting at 3:30:35.
+    lang: id
+    embed: https://www.youtube-nocookie.com/embed/M6UWHlgfcMs?start=12635
+
   - date: "15 July 2025"
     category: digital-rights
     outlet: SAFEnet research launch
     title: Aksesibilitas Layanan Situs Web Layanan Publik Indonesia untuk Disabilitas Netra
     url: https://pustaka.taratsa.id/download/1050/pdf/1050.pdf
-    note: I presented the findings of SAFEnet's research on the accessibility of public-service websites for blind users.
+    note: I presented the findings of SAFEnet's research on the accessibility of public-service websites for blind users. Recording (2 h 51 min), starting at 32:24, where the panel begins.
     lang: id
     links:
       - label: Report by Jurnal Perempuan
         url: https://www.jurnalperempuan.org/warta-feminis/layanan-situs-web-pemerintahan-belum-inklusif-kurang-melibatkan-kelompok-disabilitas
         archive: https://web.archive.org/web/20250717103514/https://www.jurnalperempuan.org/warta-feminis/layanan-situs-web-pemerintahan-belum-inklusif-kurang-melibatkan-kelompok-disabilitas
+    embed: https://www.youtube-nocookie.com/embed/qkRnM8C-w98?start=1944
+
+  - date: "15 February 2025"
+    category: digital-rights
+    outlet: Festival Hak Digital 2025, SAFEnet (Taman Ismail Marzuki, Jakarta)
+    title: "Bagaimana platform digital seharusnya turut bertanggung jawab atas pengerahan teknologi kecerdasan buatan?"
+    url: https://www.youtube.com/watch?v=b6Sj-fpokOw&t=11853s
+    archive: https://web.archive.org/web/20250221014830/https://www.youtube.com/watch?v=b6Sj-fpokOw
+    note: I moderated a panel on platform accountability for AI, with Ika Idris, Parasurama Pamungkas (ELSAM), and speakers from the Ministry of Communication and Digital Affairs and Meta. Recording (7 h 28 min), starting at 3:17:33.
+    lang: id
+    links:
+      - label: My post on LinkedIn
+        url: https://www.linkedin.com/feed/update/urn:li:activity:7295707151488991232/
+    embed: https://www.youtube-nocookie.com/embed/b6Sj-fpokOw?start=11853
 
   - date: "6 December 2024"
     category: wikimedia
