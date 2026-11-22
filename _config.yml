@@ -393,6 +393,8 @@ enable_publication_badges:
 filtered_bibtex_keywords:
   [
     abbr,
+    archive,
+    archive_note,
     abstract,
     additional_info,
     altmetric,

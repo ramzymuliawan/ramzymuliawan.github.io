@@ -104,6 +104,8 @@ def build_markdown(cv, talks):
         title = f"[{p['title']}]({url})" if url else f"*{p['title']}*"
         if p.get("lang"):
             title = f"[{title}]{{lang={p['lang']}}}"  # pandoc span: marks the language in Word and PDF
+        if p.get("archive"):
+            title += f" ([Internet Archive version]({p['archive']}))"
         out.append(f"- {', '.join(p['authors'])} ({year}). {title}. {p['publisher']}.")
     out.append("")
 
@@ -118,6 +120,8 @@ def build_markdown(cv, talks):
             link = f"[{t['title']}]({t['url']})"
             if t.get("lang"):
                 link = f"[{link}]{{lang={t['lang']}}}"
+            if t.get("archive"):
+                link += f" ([Internet Archive version]({t['archive']}))"
             out.append(f"- {t['outlet']}: {link}{when}")
         out.append("")
 
@@ -130,7 +134,8 @@ def build_markdown(cv, talks):
 
     out.extend(["## Awards", ""])
     for a in s["Awards"]:
-        out.append(f"- {a['title']}, {a['awarder']} ({a['date']})")
+        arch = f" ([Internet Archive version]({a['archive']}))" if a.get("archive") else ""
+        out.append(f"- {a['title']}, {a['awarder']} ({a['date']}){arch}")
     out.append("")
 
     out.extend(["## Affiliations", ""])

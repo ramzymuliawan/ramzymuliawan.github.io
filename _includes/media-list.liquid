@@ -10,7 +10,7 @@
       </div>
       <div>
         <a href="{{ item.url }}"{% if item.lang %} lang="{{ item.lang }}"{% endif %}>{{ item.title }}</a>
-        {% if item.archive %}<a class="archive-link" href="{{ item.archive }}">(Internet Archive version)</a>{% endif %}
+        {% if item.archive %}<a class="archive-link" href="{{ item.archive }}">(Internet Archive version{% if item.archive_note %}, {{ item.archive_note }}{% endif %})</a>{% endif %}
       </div>
       {% if item.note %}<div class="small">{{ item.note }}</div>{% endif %}
       {% if item.links %}

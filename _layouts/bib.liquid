@@ -232,6 +232,9 @@
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" aria-label="HTML: {{ entry.title | strip_html | escape }}">HTML</a>
         {% endif %}
       {% endif %}
+      {% if entry.archive %}
+        <a href="{{ entry.archive }}" class="btn btn-sm z-depth-0" aria-label="Internet Archive version: {{ entry.title | strip_html | escape }}">Internet Archive version</a>
+      {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" aria-label="PDF: {{ entry.title | strip_html | escape }}">PDF</a>
