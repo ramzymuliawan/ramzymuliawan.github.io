@@ -18,6 +18,7 @@ module.exports = {
     "talk-row",
     "talk-text",
     "talk-list",
+    "item-title",
     "collapse",
     "collapsing",
     "show",
