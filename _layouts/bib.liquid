@@ -64,7 +64,14 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title"{% if entry.language %} lang="{{ entry.language }}"{% endif %}>{{ entry.title }}</div>
+    <div
+      class="title"
+      {% if entry.language %}
+        lang="{{ entry.language }}"
+      {% endif %}
+    >
+      {{ entry.title }}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -196,7 +203,12 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical"{% if entry.venue_language %} lang="{{ entry.venue_language }}"{% endif %}>
+    <div
+      class="periodical"
+      {% if entry.venue_language %}
+        lang="{{ entry.venue_language }}"
+      {% endif %}
+    >
       {{ periodical | strip }}
     </div>
     <div class="periodical">
@@ -217,7 +229,9 @@
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" aria-label="DOI: {{ entry.title | strip_html | escape }}">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" aria-label="arXiv: {{ entry.title | strip_html | escape }}">arXiv</a>
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" aria-label="arXiv: {{ entry.title | strip_html | escape }}"
+          >arXiv</a
+        >
       {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" aria-label="HAL: {{ entry.title | strip_html | escape }}">HAL</a>
@@ -229,24 +243,41 @@
         {% if entry.html contains '://' %}
           <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" aria-label="HTML: {{ entry.title | strip_html | escape }}">HTML</a>
         {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" aria-label="HTML: {{ entry.title | strip_html | escape }}">HTML</a>
+          <a
+            href="{{ entry.html | prepend: '/assets/html/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            aria-label="HTML: {{ entry.title | strip_html | escape }}"
+            >HTML</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.archive %}
-        <a href="{{ entry.archive }}" class="btn btn-sm z-depth-0" aria-label="Internet Archive version: {{ entry.title | strip_html | escape }}">Internet Archive version</a>
+        <a href="{{ entry.archive }}" class="btn btn-sm z-depth-0" aria-label="Internet Archive version: {{ entry.title | strip_html | escape }}"
+          >Internet Archive version</a
+        >
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" aria-label="PDF: {{ entry.title | strip_html | escape }}">PDF</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" aria-label="PDF: {{ entry.title | strip_html | escape }}">PDF</a>
+          <a
+            href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            aria-label="PDF: {{ entry.title | strip_html | escape }}"
+            >PDF</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
           <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" aria-label="Supp: {{ entry.title | strip_html | escape }}">Supp</a>
         {% else %}
-          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" aria-label="Supp: {{ entry.title | strip_html | escape }}">Supp</a>
+          <a
+            href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            aria-label="Supp: {{ entry.title | strip_html | escape }}"
+            >Supp</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.video and site.enable_video_embedding %}
@@ -264,14 +295,24 @@
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" aria-label="Poster: {{ entry.title | strip_html | escape }}">Poster</a>
         {% else %}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" aria-label="Poster: {{ entry.title | strip_html | escape }}">Poster</a>
+          <a
+            href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            aria-label="Poster: {{ entry.title | strip_html | escape }}"
+            >Poster</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}
           <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" aria-label="Slides: {{ entry.title | strip_html | escape }}">Slides</a>
         {% else %}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" aria-label="Slides: {{ entry.title | strip_html | escape }}">Slides</a>
+          <a
+            href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}"
+            class="btn btn-sm z-depth-0"
+            aria-label="Slides: {{ entry.title | strip_html | escape }}"
+            >Slides</a
+          >
         {% endif %}
       {% endif %}
       {% if entry.website %}

@@ -7,23 +7,15 @@ nav: true
 nav_order: 2
 ---
 
-{% assign cat_keys = "wikimedia,digital-rights,sportswriting,other" | split: "," %}
-{% assign cat_titles = "Wikimedia,Digital rights,Sportswriting,Other" | split: "," %}
-
-{% for c in cat_keys %}
-  {% assign cov = site.data.media.coverage | where: "category", c %}
-  {% assign wri = site.data.media.writing | where: "category", c %}
-  {% if cov.size > 0 or wri.size > 0 %}
-    <section aria-labelledby="media-{{ c }}">
-      <h2 id="media-{{ c }}" class="mt-4">{{ cat_titles[forloop.index0] }}</h2>
-      {% if cov.size > 0 %}
-        <h3 class="mt-3">Coverage and quotes</h3>
-        {% include media-list.liquid items=cov %}
-      {% endif %}
-      {% if wri.size > 0 %}
-        <h3 class="mt-3">My writing</h3>
-        {% include media-list.liquid items=wri %}
-      {% endif %}
-    </section>
-  {% endif %}
-{% endfor %}
+{% assign cat_keys = "wikimedia,digital-rights,sportswriting,other" | split: "," %} {% assign cat_titles = "Wikimedia,Digital
+rights,Sportswriting,Other" | split: "," %} {% for c in cat_keys %} {% assign cov = site.data.media.coverage | where: "category", c %} {% assign wri =
+site.data.media.writing | where: "category", c %} {% if cov.size > 0 or wri.size > 0 %}
+<section aria-labelledby="media-{{ c }}">
+  <h2 id="media-{{ c }}" class="mt-4">{{ cat_titles[forloop.index0] }}</h2>
+  {% if cov.size > 0 %}
+  <h3 class="mt-3">Coverage and quotes</h3>
+  {% include media-list.liquid items=cov %} {% endif %} {% if wri.size > 0 %}
+  <h3 class="mt-3">My writing</h3>
+  {% include media-list.liquid items=wri %} {% endif %}
+</section>
+{% endif %} {% endfor %}

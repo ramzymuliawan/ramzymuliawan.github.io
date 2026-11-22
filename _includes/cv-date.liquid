@@ -1,10 +1,11 @@
 {%- comment -%} Formats a CV date: 2025-10 → "Oct 2025", 2023 → "2023". {%- endcomment -%}
-{%- assign _months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
-{%- assign _d = include.date | append: "" -%}
-{%- assign _parts = _d | split: "-" -%}
+{%- assign _months = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec' | split: ',' -%}
+{%- assign _d = include.date | append: '' -%}
+{%- assign _parts = _d | split: '-' -%}
 {%- if _parts.size > 1 -%}
   {%- assign _m = _parts[1] | plus: 0 | minus: 1 -%}
-  {{- _months[_m] }} {{ _parts[0] -}}
+  {{- _months[_m] }}
+  {{ _parts[0] -}}
 {%- else -%}
   {{- _d -}}
 {%- endif -%}
