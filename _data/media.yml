@@ -9,6 +9,14 @@
 #   embed     optional player URL, shown as an embedded video on the speaking page
 
 coverage:
+  - date: "26 August 2026"
+    category: digital-rights
+    outlet: Hukumonline
+    title: Penegakan Perlindungan Data Lintas Negara Butuh Peran Multistakeholder
+    url: https://www.hukumonline.com/berita/a/penegakan-perlindungan-data-lintas-negara-butuh-peran-multistakeholder-lt6a8e581582610/
+    note: Quotes me, as a SAFEnet researcher, at the Universitas Andalas seminar on cross-border privacy enforcement, on the need to name who is accountable and on civil society monitoring of data breaches since the 2024 PDNS incident.
+    lang: id
+
   - date: "24 August 2026"
     category: digital-rights
     outlet: ANTARA Sumatera Barat
@@ -371,6 +379,8 @@ talks:
     links:
       - label: Report by ANTARA Sumatera Barat
         url: https://sumbar.antaranews.com/berita/775624/unand-gelar-seminar-internasional-bahas-urgensi-perlindungan-data
+      - label: Report by Hukumonline
+        url: https://www.hukumonline.com/berita/a/penegakan-perlindungan-data-lintas-negara-butuh-peran-multistakeholder-lt6a8e581582610/
 
   - date: "24 June 2026"
     category: wikimedia
