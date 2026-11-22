@@ -285,3 +285,11 @@ html body .cv-meta {
 html body .cv-contact {
   color: var(--site-muted);
 }
+
+html body .cv-contents ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+}
