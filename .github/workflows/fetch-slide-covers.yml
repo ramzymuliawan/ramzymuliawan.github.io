@@ -35,6 +35,8 @@ jobs:
             "https://docs.google.com/presentation/d/1o3E0kaqvKbAFzPcvN5SscqIwKSMsx0FhUt6PHqBcal0/export/png"
           fetch assets/img/talks/2024-12-06_GV-Summit-2024_cover.jpg \
             "https://docs.google.com/presentation/d/19uy4HCnSZTKjlhRQl3SulMIvdId2c-oDVHi9Is7yr24/export/png"
+          fetch assets/img/talks/2026-10-10_IDSIG-2026_cover.jpg \
+            "https://docs.google.com/presentation/d/11xS2fUyRHD-MLd9GRTstrqUMmz4a1pv9oQrN3eqoeW8/export/png"
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
