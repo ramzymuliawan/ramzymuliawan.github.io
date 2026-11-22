@@ -131,6 +131,10 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 - Wikimedia Foundation: [Universal Code of Conduct Roundtable](https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm) (16 August 2021)
 - Arctic Knot Conference 2021: [The case for multi-project ArbComs in language and cultural groups](https://www.youtube.com/watch?v=9xbd4fJfZ-k) (June 2021)
 
+### Digital rights
+
+- Asia Pacific Regional Internet Governance Forum (APrIGF) 2026: [Closing the Last-Mile Gap: A Civil Society Approach to Internet Quality Measurement in Rural Indonesia](https://www.youtube.com/watch?v=WGy1HVO8XZM) (2026)
+
 ### Other
 
 - TEDxBatangArau: [[Debat Kusir Manusia Kuda](https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda)]{lang=id} (3 August 2019)

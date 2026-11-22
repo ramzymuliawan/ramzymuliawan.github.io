@@ -343,3 +343,10 @@ html body .cv-role {
 html body .cv-role-title {
   font-weight: 600;
 }
+
+/* "(Internet Archive version)" links next to original links. */
+html body .archive-link {
+  font-size: 0.85em;
+  color: #475569;
+  margin-left: 0.25rem;
+}
