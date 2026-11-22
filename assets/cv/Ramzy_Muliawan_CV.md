@@ -56,7 +56,7 @@ Universitas Andalas · Padang · Sep 2019 – Jan 2020
 #### Wikimedia Indonesia
 
 - **Member, Board of Trustees (Dewan Pengawas)** · Feb 2025 – May 2025
-- **Contributing Member** · Jan 2017 – present
+- **Contributing Member** · Padang · Jan 2017 – present
 
 #### Wikimania
 
