@@ -8,7 +8,7 @@ Senior Trust & Safety Policy Manager, Wikimedia Foundation · Jakarta, Indonesia
 
 Wikimedia Foundation · San Francisco (remote) · Oct 2025 – present
 
-- I review, enhance, and develop the trust and safety policies that guide the Foundation and its volunteers, so that they reflect the Wikimedia movement's values, meet community needs, and strengthen the Foundation's commitment to transparency, fairness, and inclusivity.
+- I review and develop the trust and safety policies that guide the Foundation and its volunteers, so that they reflect the Wikimedia movement's values and meet community needs.
 - I support the development of the Universal Code of Conduct (UCoC) ecosystem across Wikimedia's global, multilingual communities, in collaboration with the UCoC Coordinating Committee (U4C), and I partner with language-based project communities in their own review and improvement of UCoC adherence.
 - Tools I use: Asana, MediaWiki, Slack, Discord, Microsoft Office, Google Workspace, Zoom, Jitsi.
 
@@ -17,16 +17,16 @@ Wikimedia Foundation · San Francisco (remote) · Oct 2025 – present
 Southeast Asia Freedom of Expression Network (SAFEnet) · Denpasar (remote) · Jun 2025 – present
 
 - I am part of SAFEnet's informal coalition of attorneys focusing on violations of human rights in online spaces.
-- I was part of the advocacy team for the Civil Society Coalition for Freedom of Information and Personal Data (SIKAP), which challenged the criminal provisions of the Indonesian Personal Data Protection Law before the Constitutional Court (case 135/PUU-XXIII/2025).
-- I am part of the Advocacy Team for the Democratization of Indonesia's Digital Space (TAKDIR), a coalition of civil society organizations that challenged the government's power to order content takedowns under Government Regulation 71/2019 on the Operation of Electronic Systems and Transactions, registered at the Supreme Court on 20 August 2026.
-- I worked on an amicus curiae for the criminal proceedings of political activists arrested in the aftermath of the August–September 2025 Indonesian protests (Sep. 2025).
-- I worked on an amicus curiae for the successful judicial review petition of the provision of Law No. 36/1999 on Telecommunications on the government-determined formula of telecommunication service tariffs before the Constitutional Court (Jul. 2026).
+- I was one of the counsel in the Civil Society Coalition for Freedom of Information and Personal Data (SIKAP) challenge to the criminal provisions of the Personal Data Protection Law before the Constitutional Court (case 135/PUU-XXIII/2025, rejected in Jan. 2026).
+- I am one of the counsel in the Advocacy Team for the Democratization of Indonesia's Digital Space (TAKDIR), which is challenging the government's power to cut access to online content under Government Regulation 71/2019 on the Operation of Electronic Systems and Transactions before the Supreme Court (case 40 P/HUM/2026, registered Aug. 2026).
+- I worked on SAFEnet's amicus curiae briefs in the trials of Laras Faizati (Dec. 2025) and Wawan Hermawan (Jan. 2026), activists prosecuted after the August–September 2025 protests, and of Erasmus Frans Mandato in Rote Ndao (Apr. 2026).
+- I worked on SAFEnet's amicus curiae brief in the judicial review of Law No. 36/1999 on Telecommunications over expiring prepaid data quota, which the Constitutional Court partly granted (Jul. 2026).
 
 ### Committee Support Specialist
 
 Wikimedia Foundation · San Francisco (remote) · Jul 2023 – Oct 2025
 
-- I provided strategic and operational support to help key Wikimedia volunteer governance committees reach their best potential, in a framework that respects the time and energy of the volunteers involved.
+- I provided strategic and operational support to Wikimedia's volunteer governance committees, working within the time and energy their volunteers could give.
 - My portfolio: Affiliations Committee, Elections Committee, Arbitration Committees.
 - Tools I used: Asana, MediaWiki, Slack, Discord, Microsoft Office, Google Workspace, Zoom, Jitsi.
 
@@ -35,7 +35,7 @@ Wikimedia Foundation · San Francisco (remote) · Jul 2023 – Oct 2025
 Wikimedia Foundation · San Francisco (remote) · Jan 2021 – Jul 2023
 
 - I engaged and supported Indonesian-speaking Wikimedia project communities and organizations in drafting the Enforcement Guidelines for the Universal Code of Conduct, a universal minimum set of guidelines on expected and unacceptable behavior in Wikimedia projects and spaces.
-- I supported the participation of Wikimedia volunteer communities in Asia-Pacific in programs and initiatives to implement Movement Strategy 2030, a multi-year collaborative effort to imagine and build the future of the Wikimedia movement.
+- I supported the participation of Wikimedia volunteer communities in Asia-Pacific in programs and initiatives to implement Movement Strategy 2030, the Wikimedia movement's collaborative plan for its direction to 2030.
 - Projects I worked on: Wikimedia Foundation Board of Trustees election; Wikimedia Foundation Annual Plan community consultations; Wikimedia Foundation Terms of Use update; Wikimedia Summit 2022; Universal Code of Conduct community consultations; Movement Strategy Implementation Grants; East, Southeast Asia, and the Pacific (ESEAP) Hub project; and others.
 - Tools I used: Asana, MediaWiki, Slack, Discord, Microsoft Office, Google Workspace, Zoom, Jitsi.
 
