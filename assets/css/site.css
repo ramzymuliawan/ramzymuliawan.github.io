@@ -334,3 +334,27 @@ html body .cv-ext {
   color: #475569; /* 6.0:1 on the hover background, 7.6:1 on white */
   font-size: 0.85em;
 }
+
+/* CV: category labels and organisation groups in "Volunteer and service" and "Talks". */
+html body .cv-plain h3.cv-category {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--site-accent);
+  margin: 1.25rem 0 0.6rem;
+}
+
+html body .cv-plain h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+
+html body .cv-role {
+  margin: 0 0 0.2rem;
+}
+
+html body .cv-role-title {
+  font-weight: 600;
+}

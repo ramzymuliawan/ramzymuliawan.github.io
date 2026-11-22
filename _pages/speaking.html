@@ -2,30 +2,20 @@
 layout: page
 permalink: /speaking/
 title: Speaking and Public Engagement
-description: My talks, panels, and workshops, newest first.
+description: My talks, panels, and workshops, newest first, grouped by Wikimedia, digital rights, and other work.
 nav: true
 nav_order: 3
 ---
 
-<ul class="list-unstyled">
-  {% for item in site.data.media.talks %}
-    <li class="mb-4">
-      <div class="small text-muted">
-        {% if item.date %}{{ item.date }} · {% endif %}{{ item.outlet }}{% if item.lang == "id" %} · in Indonesian{% elsif item.lang == "it" %} · in Italian{% endif %}
-      </div>
-      <div><a href="{{ item.url }}"{% if item.lang %} lang="{{ item.lang }}"{% endif %}>{{ item.title }}</a></div>
-      {% if item.note %}<div class="small">{{ item.note }}</div>{% endif %}
-      {% if item.embed %}
-        <div class="video-embed">
-          <iframe
-            src="{{ item.embed }}"
-            title="{{ item.title | escape }}"
-            loading="lazy"
-            allow="encrypted-media; picture-in-picture; fullscreen"
-            allowfullscreen
-          ></iframe>
-        </div>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{% assign cat_keys = "wikimedia,digital-rights,other" | split: "," %}
+{% assign cat_titles = "Wikimedia,Digital rights,Other" | split: "," %}
+
+{% for c in cat_keys %}
+  {% assign talks = site.data.media.talks | where: "category", c %}
+  {% if talks.size > 0 %}
+    <section aria-labelledby="talks-{{ c }}">
+      <h2 id="talks-{{ c }}" class="mt-4">{{ cat_titles[forloop.index0] }}</h2>
+      {% include media-list.liquid items=talks embed=true %}
+    </section>
+  {% endif %}
+{% endfor %}

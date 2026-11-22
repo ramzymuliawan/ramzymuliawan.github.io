@@ -411,6 +411,8 @@ filtered_bibtex_keywords:
     inspirehep_id,
     language,
     venue_language,
+    category,
+    isbn,
     pdf,
     pmid,
     poster,

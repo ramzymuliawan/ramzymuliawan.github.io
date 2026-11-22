@@ -95,19 +95,42 @@ cv:
           - I assisted a research project on the UN Guiding Principles on Business and Human Rights.
 
     Volunteer:
+      - company: Wikimedia Indonesia
+        category: wikimedia
+        position: Member, Board of Trustees (Dewan Pengawas)
+        start_date: 2025-02
+        end_date: 2025-05
+
+      - company: Wikimedia Indonesia
+        category: wikimedia
+        position: Contributing Member
+        location: Padang
+        start_date: 2017-01
+
+      - company: Wikimania
+        category: wikimedia
+        position: Scholarship Subcommittee (2023); Scholarship Review Working Group (2024)
+        start_date: 2023
+        end_date: 2024
+
+      - company: Wikipedia, the free encyclopedia
+        category: wikimedia
+        position: Editor; administrator of Indonesian Wikipedia (since 2013); co-founder of Minangkabau Wikipedia (2012)
+        location: Remote
+        start_date: 2007-10
+        highlights:
+          - "Projects and collaborations I have been part of: WikiDialek 1.0 (2019–2020), ESEAP Hub, Wikitongues, Wikimedia Language Diversity, and Wikipedia Asian Month."
+
       - company: Southeast Asia Freedom of Expression Network (SAFEnet)
+        category: digital-rights
         position: Working Group Member
         start_date: 2025-05
         end_date: 2025-12
         highlights:
           - I represented SAFEnet in the Ministry of Communications and Digital Affairs' AI Roadmap Development Task Force, which formulated the Draft Presidential Regulation on National AI Roadmap and the Draft Presidential Regulation on AI Ethics.
 
-      - company: Wikimedia Indonesia
-        position: Member, Board of Trustees (Dewan Pengawas)
-        start_date: 2025-02
-        end_date: 2025-05
-
       - company: Southeast Asia Freedom of Expression Network (SAFEnet)
+        category: digital-rights
         position: Working Group Member
         start_date: 2024-05
         end_date: 2024-12
@@ -115,45 +138,32 @@ cv:
           - I represented SAFEnet in the Policy Network on Artificial Intelligence's Multistakeholder Working Group (PNAI-MWG), an initiative of the Internet Governance Forum Secretariat.
 
       - company: Southeast Asia Freedom of Expression Network (SAFEnet)
+        category: digital-rights
         position: Member, Internet Governance and Access Working Group
         location: Jakarta
         start_date: 2023-08
 
-      - company: Wikimania
-        position: Scholarship Subcommittee (2023); Scholarship Review Working Group (2024)
-        start_date: 2023
-        end_date: 2024
-
       - company: The House of Representatives, Republic of Indonesia (DPR RI)
+        category: other
         position: Member of the Youth Parliament
         start_date: 2017-09
         end_date: 2018-08
 
-      - company: Wikimedia Indonesia
-        position: Contributing Member
-        location: Padang
-        start_date: 2017-01
-
       - company: U.S. Department of State
+        category: other
         position: Kennedy-Lugar Youth Exchange and Study (YES) Scholar
         location: Indianapolis, Indiana
         start_date: 2016-08
         end_date: 2017-06
-
-      - company: Wikipedia, the free encyclopedia
-        position: Editor; administrator of Indonesian Wikipedia (since 2013); co-founder of Minangkabau Wikipedia (2012)
-        location: Remote
-        start_date: 2007-10
-        highlights:
-          - "Projects and collaborations I have been part of: WikiDialek 1.0 (2019–2020), ESEAP Hub, Wikitongues, Wikimedia Language Diversity, and Wikipedia Asian Month."
 
     Publications:
       - title: Hukum Persaingan Usaha sebagai Jalan Alternatif Pertanggungjawaban Perusahaan Teknologi Gergasi (Big Tech) di Indonesia
         lang: id
         authors:
           - Muliawan, M.R.
-        publisher: "Memperluas Partisipasi, Melawan Represi: Kumpulan Tulisan Konferensi Nasional Kebebasan Sipil 2025. Pusat Studi Hukum dan Kebijakan Indonesia. Developed from my Monash University Indonesia capstone research paper (2025)"
-        releaseDate: 2026
+        publisher: "In M.N. Ramadhan (ed.), Memperluas Partisipasi, Melawan Represi: Kumpulan Tulisan Konferensi Nasional Kebebasan Sipil 2025, pp. 397-420. Jakarta: Pusat Studi Hukum dan Kebijakan Indonesia. ISBN 978-602-97661-5-8. Developed from my Monash University Indonesia capstone research paper (2025)"
+        releaseDate: 2026-06
+        url: /assets/pdf/2026-11-22_Muliawan_2026_Hukum-Persaingan-Usaha-Big-Tech_PSHK.pdf
 
       - title: Laporan Riset Aksesibilitas Situs Web Layanan Publik Indonesia untuk Disabilitas Netra
         lang: id
@@ -196,12 +206,12 @@ cv:
 
       - name: Ujian Profesi Advokat
         lang: id
-        issuer: Indonesian Advocates Association (PERADI), Jakarta
+        issuer: Indonesian Advocates Association (PERADI), Pekanbaru
         date: 2023
 
       - name: Pendidikan Khusus Profesi Advokat
         lang: id
-        issuer: Indonesian Advocates Association (PERADI), Jakarta
+        issuer: Indonesian Advocates Association (PERADI), Pekanbaru
         date: 2023
 
     Awards:
@@ -225,19 +235,6 @@ cv:
       - title: 6th Breaking National Adjudicator
         awarder: National University Debating Championship, Indonesian Ministry of Culture and Education, Surabaya
         date: 2019
-
-    Languages:
-      - name: Malay
-        summary: Native
-
-      - name: Indonesian
-        summary: Native
-
-      - name: Minangkabau
-        summary: Native
-
-      - name: English
-        summary: Professional
 
     Affiliations:
       - bullet: Indonesia YES Alumni Association

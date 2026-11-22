@@ -1,35 +1,37 @@
-# Entries for the "In the Media" page (coverage, writing) and the
-# "Speaking and Public Engagement" page (talks).
-# Add new items at the top of each list. Fields: date (as it should display, e.g. "14 April 2026"),
-# outlet, title, url, note (one line, optional), lang (optional: id = Indonesian, it = Italian),
-# embed (optional: player URL shown as an embedded video on the speaking page).
+# Entries for "In the Media" (coverage, writing) and "Speaking and Public Engagement" (talks).
+# Add new items at the top of each list. Fields:
+#   date      as it should display, e.g. "14 April 2026"
+#   category  wikimedia | digital-rights | other   (pages group items under these headings)
+#   outlet, title, url
+#   note      one line, optional
+#   lang      optional: id = Indonesian, it = Italian
+#   links     optional extra links: [{label: ..., url: ...}]
+#   embed     optional player URL, shown as an embedded video on the speaking page
 
 coverage:
-  - date: "11 November 2026"
-    outlet: Diff (Wikimedia Foundation)
-    title: When does difficult behaviour become a UCoC concern?
-    url: https://diff.wikimedia.org/2026/11/11/when-does-difficult-behaviour-become-a-ucoc-concern/
-    note: Covers a session I led on applying the Universal Code of Conduct and where to report concerns.
-
   - date: "14 April 2026"
+    category: digital-rights
     outlet: Seasia
     title: Indonesia sets 4-hour deadline for platforms to remove hate speech, disinformation
     url: https://seasia.co/short/indonesia-sets-4-hour-deadline-for-platforms-to-remove-hate-speech-disinformation
     note: Quotes me, as SAFEnet legal adviser, on Ministerial Decree 127/2026 leaving "disinformation" and "hate speech" undefined.
 
   - date: "April 2026"
+    category: digital-rights
     outlet: Kompas
     title: "AJI: Revoke Ministerial Decree No. 127/2026, Unblock Magdalene Content"
     url: https://www.kompas.id/artikel/en-aji-cabut-sk-menteri-komdigi-no-1272026-buka-blokir-konten-magdalene
     note: I argue that the decree and PP 71/2019 extend state power over platforms and user content.
 
   - date: "April 2026"
+    category: digital-rights
     outlet: Kompas
     title: Social Media Must Block Disinformation Content Within 4 Hours
     url: https://www.kompas.id/artikel/en-medsos-wajib-penuhi-perintah-pemerintah-ri-untuk-blokir-konten-disinformasi-paling-lambat-4-jam
     note: I explain Ministerial Decree 127/2026 as an implementing step of PP 71/2019.
 
   - date: "19 February 2026"
+    category: wikimedia
     outlet: The Conversation Indonesia
     title: "Koalisi Open Indonesia: Upaya kolaboratif membuka akses pengetahuan untuk semua"
     url: https://theconversation.com/koalisi-open-indonesia-upaya-kolaboratif-membuka-akses-pengetahuan-untuk-semua-276064
@@ -37,6 +39,7 @@ coverage:
     lang: id
 
   - date: "14 August 2025"
+    category: digital-rights
     outlet: Kabarkota
     title: SIKAP Minta MK Pastikan UU PDP Tak Hambat Kebebasan Informasi
     url: https://www.kabarkota.com/sikap-minta-mk-pastikan-uu-pdp-tak-hambat-kebebasan-informasi/
@@ -44,132 +47,275 @@ coverage:
     lang: id
 
   - date: "25 March 2021"
+    category: wikimedia
     outlet: The Jakarta Post
     title: "Passion for information: Wikipedia contributors share what goes on behind the scenes"
     url: https://www.thejakartapost.com/life/2021/03/25/passion-for-information-wikipedia-contributors-share-what-goes-on-behind-the-scenes.html
     note: Profiles Indonesian Wikipedia contributors and administrators, including me.
 
   - date: "29 January 2020"
+    category: wikimedia
     outlet: Slate
     title: Wikipedia Has Been Unblocked in Turkey, Finally
     url: https://slate.com/technology/2020/01/wikipedia-ban-turkey-venezuela-china.html
     note: Quotes me as an Indonesian Wikipedia editor on pairing litigation with policy lobbying against website blocks.
 
   - date: "11 November 2019"
+    category: wikimedia
     outlet: Rising Voices
     title: Meet Ramzy Muliawan, the host of the @AsiaLangsOnline Twitter account for Nov 12 – 18, 2019
     url: https://rising.globalvoices.org/blog/2019/11/11/meet-ramzy-muliawan-the-host-of-the-asialangsonline-twitter-account-for-nov-12-18-2019/
     note: My interview on Minangkabau Wikipedia and writing in Minangkabau online.
 
+  - date: "16 August 2019"
+    category: wikimedia
+    outlet: Slate
+    title: Wikimania to the Rescue
+    url: https://slate.com/technology/2019/08/wikimania-wikipedia-conference-human-rights-goals.html
+    note: Mentions an exchange I had with an Argentine editor at Wikimania 2019; the article does not name me.
+
   - date: "23 January 2019"
+    category: wikimedia
     outlet: The Jakarta Post
     title: Unsold tickets lead airlines to cancel 433 flights
     url: https://www.thejakartapost.com/news/2019/01/23/unsold-tickets-lead-airlines-to-cancel-433-flights.html
     note: Uses a photo I published on Wikimedia Commons.
 
   - date: "19 October 2018"
+    category: wikimedia
     outlet: Analisa Daily
-    title: Gelar Pelatihan Penyuntingan Artikel di Wikipedia
+    title: "WikiLatih Sambangi UMSU: Gelar Pelatihan Penyuntingan Artikel di Wikipedia"
     url: https://analisadaily.com/berita/arsip/2018/10/20/636540/gelar-pelatihan-penyuntingan-artikel-di-wikipedia/
     note: Names me as a speaker at a WikiLatih training at UMSU and an organizer of Minangkabau Wikipedia.
     lang: id
 
-  - date: "2017"
+  - date: "14 September 2017"
+    category: other
     outlet: Kementerian Agama
     title: 10 Siswa Madrasah Aliyah Terpilih Sebagai Peserta Parlemen Remaja 2017
     url: https://kemenag.go.id/read/10-siswa-madrasah-aliyah-terpilih-sebagai-peserta-parlemen-remaja-2017-oz8d0
     note: Lists me (MAN 2 Pekanbaru) among students selected for the 2017 Youth Parliament.
     lang: id
 
+  - date: "29 July 2015"
+    category: wikimedia
+    outlet: Genta Andalas
+    title: Kenalkan Wikipedia bahasa Minangkabau, Wikimedia Indonesia Gelar Workshop
+    url: https://www.gentaandalas.com/kenalkan-wikipedia-bahasa-minangkabau-wikimedia-indonesia-gelar-workshop/
+    note: Covers a Wikimedia Indonesia workshop introducing Minangkabau Wikipedia.
+    lang: id
+
 writing:
   - date: "1 March 2025"
+    category: wikimedia
     outlet: Global Voices
     title: "Q&A: Meet Rafiki and Rafif, Betawi language activists"
     url: https://globalvoices.org/2025/03/01/qa-meet-rafiki-and-rafif-betawi-language-activists/
 
   - date: "28 January 2025"
+    category: digital-rights
     outlet: Global Voices Advox
     title: Indonesian court acquits worker over defamation charges filed by prominent entrepreneur
     url: https://globalvoices.org/2025/01/28/indonesian-court-acquits-worker-over-defamation-charges-filed-by-prominent-entrepreneur/
 
   - date: "24 June 2024"
+    category: wikimedia
     outlet: Diff (Wikimedia Foundation)
     title: "Building a Public Policy Network from Both Sides of the Pacific: Lessons from the 1st Global Wiki Advocacy Meet-up"
     url: https://diff.wikimedia.org/2024/06/24/building-a-public-policy-network-from-both-sides-of-the-pacific-lessons-from-the-1st-global-wiki-advocacy-meet-up/
     note: I co-wrote this with Lady01v.
 
   - date: "19 January 2021"
+    category: wikimedia
     outlet: Wikimedia Indonesia
     title: Bergotong Royong di Bulan Asia Wikipedia
     url: https://wikimedia.or.id/2021/01/19/bergotong-royong-di-bulan-asia-wikipedia/
     lang: id
 
   - date: "2021–2024"
+    category: wikimedia
     outlet: Diff (Wikimedia Foundation)
     title: All my posts on Diff
     url: https://diff.wikimedia.org/author/ramzy-muliawan/
 
+  - date: "1 October 2020"
+    category: other
+    outlet: Gema Justisia
+    title: Urgensi Peraturan Penghapusan Kekerasan Seksual untuk Perguruan Tinggi di Sumatera Barat
+    url: https://www.lpm-gemajustisia.com/artikel/urgensi-peraturan-penghapusan-kekerasan-seksual-untuk-perguruan-tinggi-di-sumatera-barat
+    lang: id
+
+  - date: "8 October 2018"
+    category: other
+    outlet: The Jakarta Post
+    title: The Perils and Duties of a First-Time Voter
+    url: https://www.thejakartapost.com/youth/2018/10/08/the-perils-and-duties-of-a-first-time-voter.html
+
+  - date: "21 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: Orang Inggris dan Balet Tchaikovsky di Pedalaman Swedia
+    url: https://football-tribe.com/indonesia/2017/07/21/orang-inggris-di-pedalaman-swedia/
+    lang: id
+
+  - date: "17 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: Replika FC Hollywood Itu Ada di Turin
+    url: https://football-tribe.com/indonesia/2017/07/17/replika-fc-hollywood-itu-ada-di-turin/
+    lang: id
+
+  - date: "17 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: "Alphonso Davies: Dari Kamp Pengungsi ke Piala Emas"
+    url: https://football-tribe.com/indonesia/2017/07/17/jalan-alphonso-davies-ke-piala-emas/
+    lang: id
+
+  - date: "16 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: Bertengkar Gelar Juara di Ruang Sidang
+    url: https://football-tribe.com/indonesia/2017/07/16/bertengkar-gelar-juara-di-ruang-sidang/
+    lang: id
+
+  - date: "14 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: "Chuck Blazer: Warisan Sang Pelanggar dan Pelapor"
+    url: https://football-tribe.com/indonesia/2017/07/14/chuck-blazer-warisan-sang-pelanggar/
+    lang: id
+
+  - date: "12 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: Ultras Bola Cap Amerika Serikat
+    url: https://football-tribe.com/indonesia/2017/07/12/ultras-sepak-bola-cap-amerika-serikat/
+    lang: id
+
+  - date: "10 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: Wayne Rooney, Alex Ferguson, dan Cara Pulang yang Berbeda
+    url: https://football-tribe.com/indonesia/2017/07/10/kepulangan-wayne-rooney-alex-ferguson/
+    lang: id
+
+  - date: "9 July 2017"
+    category: other
+    outlet: Football Tribe
+    title: "Safe Standing: Mari (Kembali) Berdiri di Stadion"
+    url: https://football-tribe.com/indonesia/2017/07/09/safe-standing-di-stadion/
+    lang: id
+
   - date: "5 June 2017"
+    category: other
     outlet: The Jakarta Post
     title: Home and abroad, Ramadhan offers chance to return to middle ground
     url: https://www.thejakartapost.com/life/2017/06/05/home-and-abroad-ramadhan-offers-chance-to-return-to-middle-ground.html
 
-  - date: "10 May 2017"
+  - date: "13 May 2017"
+    category: other
     outlet: The Jakarta Post
     title: "'13 Reasons Why' and the inescapable darkness of teen angst"
     url: https://www.thejakartapost.com/life/2017/05/12/13-reasons-why-and-the-inescapable-darkness-of-teen-angst.html
 
+  - date: "3 May 2017"
+    category: other
+    outlet: Fandom.id
+    title: Akhir Kisah Larry Bird
+    url: https://fandom.id/feature/profil/2017/05/akhir-kisah-larry-bird/
+    lang: id
+
+  - date: "28 April 2017"
+    category: other
+    outlet: Fandom.id
+    title: Supremasi Bola Atas Militer, Mengapa Tidak?
+    url: https://fandom.id/analisis/2017/04/supremasi-bola-atas-militer-mengapa-tidak/
+    lang: id
+
+  - date: "24 October 2016"
+    category: other
+    outlet: Pandit Football Indonesia
+    title: "Sekolah Sebagai Pembina Utama Pemain Muda: Tunjuk Ajar dari Amerika"
+    url: http://www.panditfootball.com/pandit-sharing/206500/PSH/700101/sekolah-sebagai-pembina-utama-pemain-muda-tunjuk-ajar-dari-amerika
+    lang: id
+
   - date: "18 August 2015"
+    category: other
     outlet: Pandit Football Indonesia
     title: Menjadi Indonesia di Lapangan Sepakbola
     url: https://panditfootball.com/pandit-sharing/183730/PSH/150818/piala-asia
     lang: id
 
   - date: "3 July 2015"
+    category: other
     outlet: Pandit Football Indonesia
     title: Matinya Lapangan Kami
     url: https://panditfootball.com/pandit-sharing/180870/PFB/150703/tarkam
     lang: id
 
+  - date: "27 February 2014"
+    category: other
+    outlet: DetikSport
+    title: Amor Fati Penalti
+    url: http://sport.detik.com/aboutthegame/read/2014/02/27/170634/2510548/425/amor-fati-penalti
+    lang: id
+
   - date: "21 January 2014"
+    category: other
     outlet: Pandit Football Indonesia
     title: "Stadion Utama Riau: Antara Euforia, Uang, dan Kekuasaan"
     url: https://panditfootball.com/pandit-sharing/1792/PFB/140121/stadion-utama-riau-antara-euforia-uang-dan-kekuasaan
     lang: id
 
 talks:
-  - date: "7 October 2026"
-    outlet: EduWiki Hub Workshop
-    title: Speaker card on Wikimedia Commons
-    url: https://commons.wikimedia.org/wiki/File:Ramzy_Muliawan_EduWiki_Hub_Workshop.png
+  - date: "15 October 2026"
+    category: wikimedia
+    outlet: EduWiki x VSN Workshop (online)
+    title: "Creating Safer and More Inclusive Wikimedia Spaces: Understanding and Applying the Universal Code of Conduct"
+    url: https://meta.wikimedia.org/wiki/Event:EduWiki_Workshop_October_2026
+    note: I led the session on applying the Universal Code of Conduct in practice. Workshop recording (2 h 7 min).
+    links:
+      - label: Report on Diff
+        url: https://diff.wikimedia.org/2026/11/11/when-does-difficult-behaviour-become-a-ucoc-concern/
+    embed: https://www.youtube-nocookie.com/embed/jNHsN6RKBmg
 
   - date: "6 December 2024"
+    category: wikimedia
     outlet: Global Voices Summit 2024, Nepal
-    title: Presentation with Subhashish Panigrahi
-    url: https://commons.wikimedia.org/wiki/File:Subhashish_and_Ramzy%27s_Presentation.jpg
-    note: Photo of the session on Wikimedia Commons.
+    title: How to make the Internet more multilingual with Lingua Libre
+    url: https://gv2024.sched.com/event/1r0rp/how-to-make-the-internet-more-multilingual-with-lingualibre
+    note: Presented with Subhashish Panigrahi.
+    links:
+      - label: Photo on Wikimedia Commons
+        url: https://commons.wikimedia.org/wiki/File:Subhashish_and_Ramzy%27s_Presentation.jpg
 
-  - date: "August 2024"
+  - date: "9 August 2024"
+    category: wikimedia
     outlet: Wikimania 2024
     title: Supporting minority languages and Wikimedia's global community
-    url: https://commons.wikimedia.org/wiki/File:Supporting_minority_languages_and_Wikimedia%27s_global_community_-_Ramzy_Muliawan_-_01.jpg
-    note: Photo of my session on Wikimedia Commons.
+    url: https://wikimania.wikimedia.org/wiki/2024:Program/Supporting_minority_languages_and_Wikimedia%27s_global_community
+    note: Roundtable panel. The recording starts at the session (54 min into the Day 3, Room 7 stream).
+    embed: https://www.youtube-nocookie.com/embed/LedziGgRqZU?start=3280
 
   - date: "17 August 2023"
+    category: wikimedia
     outlet: Wikimania 2023
     title: "Passion and Perspectives, Policy Challenges and Opportunities for the Wikimedia Communities in the ESEAP"
     url: https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm
-    embed: https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm?embedplayer=yes
     note: Panel recording (1 h 10 min).
+    embed: https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm?embedplayer=yes
 
   - date: "June 2022"
+    category: wikimedia
     outlet: RightsCon 2022
     title: "When you can't see your city (online): Why you don't want a country without Freedom of Panorama"
     url: https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm
-    embed: https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm?embedplayer=yes
     note: My lightning talk (5 min).
+    embed: https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm?embedplayer=yes
 
   - date: "7 February 2022"
+    category: wikimedia
     outlet: Wikimedia Italia
     title: Indonesia nuova tappa dei viaggi in pausa pranzo
     url: https://www.wikimedia.it/news/indonesia-nuova-tappa-dei-viaggi-in-pausa-pranzo/
@@ -177,20 +323,28 @@ talks:
     lang: it
 
   - date: "16 August 2021"
+    category: wikimedia
     outlet: Wikimedia Foundation
     title: Universal Code of Conduct Roundtable
     url: https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm
-    embed: https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm?embedplayer=yes
     note: I co-moderated this roundtable (44 min).
+    embed: https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm?embedplayer=yes
 
-  - date: "2021"
-    outlet: Arctic Knot Conference
+  - date: "June 2021"
+    category: wikimedia
+    outlet: Arctic Knot Conference 2021
     title: The case for multi-project ArbComs in language and cultural groups
-    url: https://commons.wikimedia.org/wiki/File:Arctic_Knot_Conference_2021_-_xwikiarb_(Ramzy_Muliawan).pdf
-    note: Slides for my lightning talk on Wikimedia Commons.
+    url: https://www.youtube.com/watch?v=9xbd4fJfZ-k
+    note: My lightning talk (5 min).
+    links:
+      - label: Slides on Wikimedia Commons
+        url: https://commons.wikimedia.org/wiki/File:Arctic_Knot_Conference_2021_-_xwikiarb_(Ramzy_Muliawan).pdf
+    embed: https://www.youtube-nocookie.com/embed/9xbd4fJfZ-k
 
-  - outlet: TEDx
+  - date: "2019"
+    category: other
+    outlet: TEDxBatangArau
     title: Debat Kusir Manusia Kuda
     url: https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda
-    embed: https://www.youtube-nocookie.com/embed/STTojuBMwZA
     lang: id
+    embed: https://www.youtube-nocookie.com/embed/STTojuBMwZA

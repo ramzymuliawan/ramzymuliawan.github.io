@@ -21,6 +21,9 @@ import yaml
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 BASENAME = "Ramzy_Muliawan_CV"
+SITE_URL = "https://ramzymuliawan.github.io"
+CATEGORIES = ["wikimedia", "digital-rights", "other"]
+CATEGORY_TITLES = {"wikimedia": "Wikimedia", "digital-rights": "Digital rights", "other": "Other"}
 
 
 def fmt_date(value):
@@ -63,7 +66,25 @@ def build_markdown(cv, talks):
                 out.append("")
 
     roles("Experience", s["Experience"])
-    roles("Volunteer and service", s["Volunteer"])
+
+    out.extend(["## Volunteer and service", ""])
+    for cat in CATEGORIES:
+        vols = [v for v in s["Volunteer"] if v.get("category") == cat]
+        if not vols:
+            continue
+        out.extend([f"### {CATEGORY_TITLES[cat]}", ""])
+        seen = []
+        for v in vols:
+            if v["company"] not in seen:
+                seen.append(v["company"])
+        for org in seen:
+            out.extend([f"#### {org}", ""])
+            for v in [x for x in vols if x["company"] == org]:
+                meta = " · ".join(x for x in [v.get("location"), span(v)] if x)
+                out.append(f"- **{v['position']}** · {meta}")
+                for h in v.get("highlights") or []:
+                    out.append(f"    - {h}")
+            out.append("")
 
     out.extend(["## Education", ""])
     for e in s["Education"]:
@@ -77,20 +98,28 @@ def build_markdown(cv, talks):
     out.extend(["## Publications", ""])
     for p in s["Publications"]:
         year = str(p.get("releaseDate", "")).split("-")[0]
-        title = f"[{p['title']}]({p['url']})" if p.get("url") else f"*{p['title']}*"
+        url = p.get("url")
+        if url and url.startswith("/"):
+            url = SITE_URL + url
+        title = f"[{p['title']}]({url})" if url else f"*{p['title']}*"
         if p.get("lang"):
             title = f"[{title}]{{lang={p['lang']}}}"  # pandoc span: marks the language in Word and PDF
         out.append(f"- {', '.join(p['authors'])} ({year}). {title}. {p['publisher']}.")
     out.append("")
 
     out.extend(["## Talks", ""])
-    for t in talks:
-        when = f" ({t['date']})" if t.get("date") else ""
-        link = f"[{t['title']}]({t['url']})"
-        if t.get("lang"):
-            link = f"[{link}]{{lang={t['lang']}}}"
-        out.append(f"- {t['outlet']}: {link}{when}")
-    out.append("")
+    for cat in CATEGORIES:
+        ts = [t for t in talks if t.get("category") == cat]
+        if not ts:
+            continue
+        out.extend([f"### {CATEGORY_TITLES[cat]}", ""])
+        for t in ts:
+            when = f" ({t['date']})" if t.get("date") else ""
+            link = f"[{t['title']}]({t['url']})"
+            if t.get("lang"):
+                link = f"[{link}]{{lang={t['lang']}}}"
+            out.append(f"- {t['outlet']}: {link}{when}")
+        out.append("")
 
     out.extend(["## Certificates", ""])
     for c in s["Certificates"]:
@@ -102,11 +131,6 @@ def build_markdown(cv, talks):
     out.extend(["## Awards", ""])
     for a in s["Awards"]:
         out.append(f"- {a['title']}, {a['awarder']} ({a['date']})")
-    out.append("")
-
-    out.extend(["## Languages", ""])
-    for l in s["Languages"]:
-        out.append(f"- {l['name']}: {l['summary']}")
     out.append("")
 
     out.extend(["## Affiliations", ""])
@@ -121,18 +145,23 @@ def build_html(markdown_text, font_dir):
     lines = markdown_text.split("\n")
     body, in_list = [], False
     for line in lines:
-        if line.startswith("- "):
+        if line.startswith("- ") or line.startswith("    - "):
             if not in_list:
                 body.append("<ul>")
                 in_list = True
-            item = line[2:]
-            item = re.sub(r"\*([^*]+)\*", r"<cite>\1</cite>", md_links_to_html(item))
-            body.append(f"<li>{item}</li>")
+            nested = line.startswith("    - ")
+            item = line.strip()[2:]
+            item = md_links_to_html(item)
+            item = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", item)
+            item = re.sub(r"\*([^*]+)\*", r"<cite>\1</cite>", item)
+            body.append(f'<li class="sub">{item}</li>' if nested else f"<li>{item}</li>")
             continue
         if in_list:
             body.append("</ul>")
             in_list = False
-        if line.startswith("### "):
+        if line.startswith("#### "):
+            body.append(f"<h4>{html.escape(line[5:])}</h4>")
+        elif line.startswith("### "):
             body.append(f"<h3>{html.escape(line[4:])}</h3>")
         elif line.startswith("## "):
             body.append(f"<h2>{html.escape(line[3:])}</h2>")
@@ -154,12 +183,14 @@ def build_html(markdown_text, font_dir):
     h1 + p.meta {{ margin-bottom: 10pt; }}
     h2 {{ font-size: 12.5pt; color: #0f766e; border-bottom: 0.6pt solid #e2e8f0; padding-bottom: 2pt; margin: 14pt 0 6pt; }}
     h3 {{ font-size: 10.5pt; margin: 8pt 0 0; }}
+    h4 {{ font-size: 10pt; margin: 6pt 0 1pt; }}
+    li.sub {{ margin-left: 14pt; list-style-type: circle; }}
     p.meta {{ color: #64748b; margin: 0 0 3pt; }}
     ul {{ margin: 0 0 4pt; padding-left: 14pt; }}
     li {{ margin-bottom: 2pt; }}
     li::marker {{ font-family: "Plus Jakarta Sans", sans-serif; }}
     a {{ color: #0f766e; text-decoration: underline; }}
-    h2, h3 {{ break-after: avoid; }}
+    h2, h3, h4 {{ break-after: avoid; }}
     """
     return (
         '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
