@@ -10,6 +10,14 @@ nav_order: 4
 {% assign cv = site.data.cv.cv %}
 {% assign s = cv.sections %}
 
+{% assign cv_date = site.time | date: "%Y-%m-%d" %}
+<div class="cv-download" role="group" aria-labelledby="cv-download-label">
+  <span id="cv-download-label" class="cv-download-label">Download my CV</span>
+  <a class="cv-download-option" href="{{ '/assets/cv/Ramzy_Muliawan_CV.pdf' | relative_url }}" download="{{ cv_date }}_Ramzy_Muliawan_CV.pdf">PDF <span class="cv-ext">.pdf</span></a>
+  <a class="cv-download-option" href="{{ '/assets/cv/Ramzy_Muliawan_CV.docx' | relative_url }}" download="{{ cv_date }}_Ramzy_Muliawan_CV.docx">Word <span class="cv-ext">.docx</span></a>
+  <a class="cv-download-option" href="{{ '/assets/cv/Ramzy_Muliawan_CV.md' | relative_url }}" download="{{ cv_date }}_Ramzy_Muliawan_CV.md">Markdown <span class="cv-ext">.md</span></a>
+</div>
+
 <nav class="cv-contents" aria-label="CV sections">
   <ul class="list-inline">
     <li class="list-inline-item"><a href="#experience">Experience</a></li>
