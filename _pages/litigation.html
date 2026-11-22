@@ -1,0 +1,24 @@
+---
+layout: page
+permalink: /litigation/
+title: Litigation and Advocacy
+nav: true
+nav_order: 4
+---
+
+<nav class="cv-contents" aria-label="Litigation and Advocacy sections">
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#strategic-litigation">Strategic litigation</a></li>
+    <li class="list-inline-item"><a href="#case-support">Case support</a></li>
+  </ul>
+</nav>
+
+<section aria-labelledby="strategic-litigation">
+  <h2 id="strategic-litigation" class="mt-4">Strategic litigation</h2>
+  {% include case-list.liquid items=site.data.litigation.strategic %}
+</section>
+
+<section aria-labelledby="case-support">
+  <h2 id="case-support" class="mt-4">Case support</h2>
+  {% include case-list.liquid items=site.data.litigation.support %}
+</section>

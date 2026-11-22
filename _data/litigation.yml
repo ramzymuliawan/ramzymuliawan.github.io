@@ -1,0 +1,69 @@
+# Entries for the "Litigation and Advocacy" page. Newest first within each list.
+# Fields:
+#   date      as it should display
+#   forum     court or body; case: case number(s), optional
+#   title     what the case is
+#   role      my part, first person
+#   about     what the case challenges or concerns
+#   outcome   result, or status while pending; status_label: "Outcome" or "Status"
+#   links     [{label, url, archive (optional), lang (optional)}]
+#   lang      optional, for an Indonesian-language title
+
+strategic:
+  - date: "July 2026"
+    forum: Supreme Court of Indonesia
+    title: Judicial review of Government Regulation No. 71/2019 on the Operation of Electronic Systems and Transactions
+    role: I am one of the counsel in the Advocacy Team for the Democratization of Indonesia's Digital Space (TAKDIR), acting for the Alliance of Independent Journalists (AJI), SAFEnet, Magdalene.co, and Project Multatuli.
+    about: The petition challenges Article 95, which mandates the government to cut access to electronic content, and Article 96(a) and (b), which allow it for content that "violates the law" or "disturbs the public and public order". It argues that these provisions conflict with the Electronic Information and Transactions Law, the Press Law, the Human Rights Law, and Indonesia's ratification of the ICCPR.
+    status_label: Status
+    outcome: Awaiting decision.
+    links:
+      - label: Petition (PDF, in Indonesian)
+        url: /assets/pdf/2026-11-22_TAKDIR_2026_Permohonan-Uji-Materiil-PP-71-2019.pdf
+
+  - date: "July 2025 – January 2026"
+    forum: Constitutional Court of Indonesia
+    case: 135/PUU-XXIII/2025
+    title: Judicial review of the criminal provisions of Law No. 27/2022 on Personal Data Protection
+    role: I was one of the counsel for the petitioners, who included the Alliance of Independent Journalists (AJI) and SAFEnet, as part of the Civil Society Coalition for Freedom of Information and Personal Data (SIKAP).
+    about: The petition challenged Articles 65(2) and 67(2), which criminalise unlawfully disclosing another person's personal data, and asked the Court to read them so that journalistic, academic, artistic, and literary work would not be caught.
+    status_label: Outcome
+    outcome: The Court rejected the petition in full on 19 January 2026, finding the "unlawfully" element of the offence clear enough as written.
+    links:
+      - label: Case tracker
+        url: https://tracking.mkri.id/index.php?page=web.TrackPerkara&id=135/PUU-XXIII/2025
+      - label: Revised petition (PDF, in Indonesian)
+        url: https://www.mkri.id/public/filepermohonan/Perbaikan%20Permohonan_4371_8614_2025.08.25%20-%20Final%20Perbaikan%20Permohonan%20Perkara%20135%20PUU%20XXIII%202025_redacted.pdf
+      - label: Decision (PDF, in Indonesian)
+        url: https://www.mkri.id/public/content/persidangan/putusan/putusan_mkri_13643_1768797421.pdf
+
+support:
+  - date: "July 2026"
+    forum: Constitutional Court of Indonesia
+    case: 273/PUU-XXIII/2025 and 33/PUU-XXIV/2026
+    title: Amicus curiae in the judicial review of Law No. 36/1999 on Telecommunications (expiring prepaid data quota)
+    role: I worked on SAFEnet's amicus curiae brief, which the Court read in both cases.
+    about: The petitions challenged Article 28(1) of the Telecommunications Law, as amended by the Job Creation Law, under which operators set tariffs by a government formula, because prepaid data quota that users had paid for could expire unused.
+    status_label: Outcome
+    outcome: On 23 July 2026 the Court partly granted case 273/PUU-XXIII/2025, holding the provision conditionally unconstitutional unless operators must offer service options that keep users' remaining quota active and usable. It declared case 33/PUU-XXIV/2026 inadmissible, as that decision had already settled the same norm.
+    links:
+      - label: Amicus curiae brief (PDF, in Indonesian)
+        url: https://drive.proton.me/urls/FB5NMGQTA0#W4tzkQkYzwsd
+      - label: Decision 273/PUU-XXIII/2025 (PDF)
+        url: https://www.mkri.id/public/content/persidangan/putusan/putusan_mkri_14690_1784793855.pdf
+      - label: Decision 33/PUU-XXIV/2026 (PDF)
+        url: https://www.mkri.id/public/content/persidangan/putusan/putusan_mkri_14689_1784794122.pdf
+
+  - date: "September 2025 onwards"
+    forum: Central and South Jakarta District Courts
+    title: Amicus curiae for political activists prosecuted after the August–September 2025 protests
+    role: I worked on SAFEnet's amicus curiae briefs in criminal trials of activists charged over their social media posts after the protests.
+    about: The briefs argue that the posts were protected expression under the Constitution and the ICCPR, that the charges do not meet the elements of the offences under the revised Electronic Information and Transactions Law, and that criminal law is being used as a first resort to silence critics. They include the cases of Wawan Hermawan (Central Jakarta District Court, case 690/Pid.Sus/2025/PN Jkt.Pst) and Laras Faizati (South Jakarta District Court).
+    links:
+      - label: Amicus curiae brief, Wawan Hermawan (PDF, in Indonesian)
+        url: https://drive.proton.me/urls/T28AP8QZ6G#gMY0v4o7ljJ6
+      - label: SAFEnet on the Wawan Hermawan brief
+        url: https://safenet.or.id/amicus-curiae-untuk-kasus-wawan-hermawan/
+      - label: Tempo report on the amicus curiae briefs for Laras Faizati
+        url: https://www.tempo.co/hukum/4-amicus-curiae-untuk-laras-faizati-tuntut-pembebasan-2098550
+        archive: https://web.archive.org/web/20251213182935/https://www.tempo.co/hukum/4-amicus-curiae-untuk-laras-faizati-tuntut-pembebasan-2098550

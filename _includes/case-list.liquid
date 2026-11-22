@@ -1,0 +1,33 @@
+{%- comment -%}
+  Renders one list of cases from _data/litigation.yml.
+  include.items: array of cases.
+{%- endcomment -%}
+<ul class="list-unstyled case-list">
+  {% for c in include.items %}
+    <li class="case">
+      <h3 class="case-title">{{ c.title }}</h3>
+      <p class="case-meta">
+        {{ c.date }} · {{ c.forum }}
+        {%- if c.case %} · Case {{ c.case }}{% endif %}
+      </p>
+      <p><strong>My role.</strong> {{ c.role }}</p>
+      <p><strong>The case.</strong> {{ c.about }}</p>
+      {% if c.outcome %}
+        <p>
+          <strong>{{ c.status_label | default: 'Outcome' }}.</strong> {{ c.outcome }}
+        </p>
+      {% endif %}
+      {% if c.links %}
+        <p class="case-links">
+          {% for l in c.links -%}
+            <a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label }}</a>
+            {%- if l.archive %}
+              <a class="archive-link" href="{{ l.archive }}">(Internet Archive version)</a>
+            {%- endif -%}
+            {%- unless forloop.last %} · {% endunless -%}
+          {%- endfor %}
+        </p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
