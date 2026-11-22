@@ -10,11 +10,11 @@
         {{ c.date }} · {{ c.forum }}
         {%- if c.case %} · Case {{ c.case }}{% endif %}
       </p>
-      <p><strong>My role.</strong> {{ c.role }}</p>
-      <p><strong>The case.</strong> {{ c.about }}</p>
+      <p><strong>My role</strong> {{ c.role }}</p>
+      <p><strong>The case</strong> {{ c.about }}</p>
       {% if c.outcome %}
         <p>
-          <strong>{{ c.status_label | default: 'Outcome' }}.</strong> {{ c.outcome }}
+          <strong>{{ c.status_label | default: 'Outcome' }}</strong> {{ c.outcome }}
         </p>
       {% endif %}
       {% if c.links %}
