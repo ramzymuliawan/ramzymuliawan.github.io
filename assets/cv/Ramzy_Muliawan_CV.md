@@ -18,7 +18,7 @@ Southeast Asia Freedom of Expression Network (SAFEnet) · Denpasar (remote) · J
 
 - I am part of SAFEnet's informal coalition of attorneys focusing on violations of human rights in online spaces.
 - I was part of the advocacy team for the Civil Society Coalition for Freedom of Information and Personal Data (SIKAP), which challenged the criminal provisions of the Indonesian Personal Data Protection Law before the Constitutional Court (case 135/PUU-XXIII/2025).
-- I am part of the Advocacy Team for the Democratization of Indonesia's Digital Space (TAKDIR), a coalition of civil society organizations that challenged the government's power to order content takedowns under Government Regulation 71/2019 on the Operation of Electronic Systems and Transactions, filed with the Supreme Court in July 2026.
+- I am part of the Advocacy Team for the Democratization of Indonesia's Digital Space (TAKDIR), a coalition of civil society organizations that challenged the government's power to order content takedowns under Government Regulation 71/2019 on the Operation of Electronic Systems and Transactions, registered at the Supreme Court on 20 August 2026.
 - I worked on an amicus curiae for the criminal proceedings of political activists arrested in the aftermath of the August–September 2025 Indonesian protests (Sep. 2025).
 - I worked on an amicus curiae for the successful judicial review petition of the provision of Law No. 36/1999 on Telecommunications on the government-determined formula of telecommunication service tariffs before the Constitutional Court (Jul. 2026).
 
