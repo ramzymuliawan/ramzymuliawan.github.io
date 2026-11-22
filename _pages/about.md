@@ -22,6 +22,6 @@ latest_posts:
   enabled: false
 ---
 
-legal professional educated in international law, human rights, and public policy with trainings in intercultural engagement, civic development, and cross-cultural collaboration. interested in the intersection of the free knowledge, participatory policymaking, and governance of the digital communities
+I am a legal professional educated in international law, human rights, and public policy with trainings in intercultural engagement, civic development, and cross-cultural collaboration. I am interested in the intersection of the free knowledge, participatory policymaking, and governance of the digital communities.
 
-Senior Trust & Safety Policy Manager at the [Wikimedia Foundation](https://wikimediafoundation.org/) and pro bono legal counsel with the [Southeast Asia Freedom of Expression Network (SAFEnet)](https://safenet.or.id/). M.P.P.M., Monash University; S.H. in international law, Universitas Andalas.
+I work as Senior Trust & Safety Policy Manager at the [Wikimedia Foundation](https://wikimediafoundation.org/) and as pro bono legal counsel with the [Southeast Asia Freedom of Expression Network (SAFEnet)](https://safenet.or.id/). I hold an M.P.P.M. from Monash University and an S.H. in international law from Universitas Andalas.

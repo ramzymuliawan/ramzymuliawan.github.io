@@ -104,3 +104,24 @@ html body .badge {
 html body .card {
   border-color: var(--site-line);
 }
+
+/* CV page: plain sections, no boxes. */
+html body .cv .card {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+html body .cv .card-title {
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+html body .cv .list-group-item {
+  border: 0;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
