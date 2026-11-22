@@ -24,4 +24,4 @@ latest_posts:
 
 I am a legal professional educated in international law, human rights, and public policy with trainings in intercultural engagement, civic development, and cross-cultural collaboration. I am interested in the intersection of the free knowledge, participatory policymaking, and governance of the digital communities.
 
-I work as Senior Trust & Safety Policy Manager at the [Wikimedia Foundation](https://wikimediafoundation.org/) and as pro bono legal counsel with the [Southeast Asia Freedom of Expression Network (SAFEnet)](https://safenet.or.id/). I hold an M.P.P.M. from Monash University and an S.H. in international law from Universitas Andalas.
+I work as Senior Trust & Safety Policy Manager at the [Wikimedia Foundation](https://wikimediafoundation.org/) and as pro bono legal counsel with the [Southeast Asia Freedom of Expression Network (SAFEnet)](https://safenet.or.id/). I hold a graduate degree in public policy and management from Monash University and an undergraduate degree in law from Universitas Andalas. I am based in Jakarta, Indonesia. 
