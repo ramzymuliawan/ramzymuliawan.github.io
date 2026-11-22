@@ -125,18 +125,25 @@ writing:
     url: https://diff.wikimedia.org/2024/06/24/building-a-public-policy-network-from-both-sides-of-the-pacific-lessons-from-the-1st-global-wiki-advocacy-meet-up/
     note: I co-wrote this with Lady01v.
 
+  - date: "12 November 2022"
+    category: wikimedia
+    outlet: Diff (Wikimedia Foundation)
+    title: "Our Evolution and Growth as a Movement- The ESEAP Story!"
+    url: https://diff.wikimedia.org/2022/11/12/our-evolution-and-growth-as-a-movement-the-eseap-story/
+    note: I co-wrote this with RASharma (WMF) and Jacqueline Chen.
+
+  - date: "2 May 2021"
+    category: wikimedia
+    outlet: Diff (Wikimedia Foundation)
+    title: Consulting the UCoC Enforcement Within an Intercultural Wikimedia Ecosystem
+    url: https://diff.wikimedia.org/2021/05/02/consulting-the-ucoc-enforcement-within-an-intercultural-wikimedia-ecosystem/
+
   - date: "19 January 2021"
     category: wikimedia
     outlet: Wikimedia Indonesia
     title: Bergotong Royong di Bulan Asia Wikipedia
     url: https://wikimedia.or.id/2021/01/19/bergotong-royong-di-bulan-asia-wikipedia/
     lang: id
-
-  - date: "2021–2024"
-    category: wikimedia
-    outlet: Diff (Wikimedia Foundation)
-    title: All my posts on Diff
-    url: https://diff.wikimedia.org/author/ramzy-muliawan/
 
   - date: "1 October 2020"
     category: other
@@ -279,6 +286,14 @@ talks:
       - label: Report on Diff
         url: https://diff.wikimedia.org/2026/11/11/when-does-difficult-behaviour-become-a-ucoc-concern/
     embed: https://www.youtube-nocookie.com/embed/jNHsN6RKBmg
+
+  - date: "2026"
+    category: digital-rights
+    outlet: Asia Pacific Regional Internet Governance Forum (APrIGF) 2026
+    title: "Closing the Last-Mile Gap: A Civil Society Approach to Internet Quality Measurement in Rural Indonesia"
+    url: https://www.youtube.com/watch?v=WGy1HVO8XZM
+    note: Panel with Sohini Rajiyung (Internet Society) and Maria Xynou (OONI), moderated by Unggul Sagena (SAFEnet). Recording (30 min).
+    embed: https://www.youtube-nocookie.com/embed/WGy1HVO8XZM
 
   - date: "6 December 2024"
     category: wikimedia

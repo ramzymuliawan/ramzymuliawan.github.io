@@ -8,11 +8,14 @@
       <div class="small text-muted">
         {% if item.date %}{{ item.date }} · {% endif %}{{ item.outlet }}{% if item.lang == "id" %} · in Indonesian{% elsif item.lang == "it" %} · in Italian{% endif %}
       </div>
-      <div><a href="{{ item.url }}"{% if item.lang %} lang="{{ item.lang }}"{% endif %}>{{ item.title }}</a></div>
+      <div>
+        <a href="{{ item.url }}"{% if item.lang %} lang="{{ item.lang }}"{% endif %}>{{ item.title }}</a>
+        {% if item.archive %}<a class="archive-link" href="{{ item.archive }}">(Internet Archive version)</a>{% endif %}
+      </div>
       {% if item.note %}<div class="small">{{ item.note }}</div>{% endif %}
       {% if item.links %}
         <div class="small">
-          {% for l in item.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+          {% for l in item.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% if l.archive %} <a class="archive-link" href="{{ l.archive }}">(Internet Archive version)</a>{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %}
         </div>
       {% endif %}
       {% if include.embed and item.embed %}
