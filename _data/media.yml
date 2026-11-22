@@ -1,62 +1,82 @@
-# Entries for the "In the Media" page (_pages/media.md).
+# Entries for the "In the Media" page (_pages/media.html).
 # Add new items at the top of each list. Fields: date (as it should display, e.g. "14 April 2026"),
-# outlet, title, url, note (one line, optional), lang (optional, e.g. id for Indonesian).
+# outlet, title, url, note (one line, optional), lang (optional: id = Indonesian, it = Italian).
 
 coverage:
   - date: "11 November 2026"
     outlet: Diff (Wikimedia Foundation)
     title: When does difficult behaviour become a UCoC concern?
     url: https://diff.wikimedia.org/2026/11/11/when-does-difficult-behaviour-become-a-ucoc-concern/
-    note: Reports on a session Ramzy led on applying the Universal Code of Conduct, including reporting pathways.
+    note: Covers a session Ramzy led on applying the Universal Code of Conduct and where to report concerns.
 
   - date: "14 April 2026"
     outlet: Seasia
     title: Indonesia sets 4-hour deadline for platforms to remove hate speech, disinformation
     url: https://seasia.co/short/indonesia-sets-4-hour-deadline-for-platforms-to-remove-hate-speech-disinformation
-    note: Quoted as SAFEnet legal adviser on the undefined terms in Ministerial Decree 127/2026.
+    note: As SAFEnet legal adviser, he points out that Ministerial Decree 127/2026 leaves "disinformation" and "hate speech" undefined.
 
   - date: "April 2026"
     outlet: Kompas
     title: "AJI: Revoke Ministerial Decree No. 127/2026, Unblock Magdalene Content"
     url: https://www.kompas.id/artikel/en-aji-cabut-sk-menteri-komdigi-no-1272026-buka-blokir-konten-magdalene
-    note: Quoted on how the decree and PP 71/2019 widen state power over platforms and user content.
+    note: Argues the decree and PP 71/2019 extend state power over platforms and user content.
 
   - date: "April 2026"
     outlet: Kompas
     title: Social Media Must Block Disinformation Content Within 4 Hours
     url: https://www.kompas.id/artikel/en-medsos-wajib-penuhi-perintah-pemerintah-ri-untuk-blokir-konten-disinformasi-paling-lambat-4-jam
-    note: Quoted on Ministerial Decree 127/2026 as part of the implementation of PP 71/2019.
+    note: Reads Ministerial Decree 127/2026 as an implementing step of PP 71/2019.
 
   - date: "19 February 2026"
     outlet: The Conversation Indonesia
     title: "Koalisi Open Indonesia: Upaya kolaboratif membuka akses pengetahuan untuk semua"
     url: https://theconversation.com/koalisi-open-indonesia-upaya-kolaboratif-membuka-akses-pengetahuan-untuk-semua-276064
-    note: Quoted on the kick-off of the Open Indonesia coalition.
+    note: Comments on the kick-off of the Open Indonesia coalition.
+    lang: id
+
+  - date: "14 August 2025"
+    outlet: Kabarkota
+    title: SIKAP Minta MK Pastikan UU PDP Tak Hambat Kebebasan Informasi
+    url: https://www.kabarkota.com/sikap-minta-mk-pastikan-uu-pdp-tak-hambat-kebebasan-informasi/
+    note: Speaks for SAFEnet on the Constitutional Court challenge to the Personal Data Protection Law.
     lang: id
 
   - date: "25 March 2021"
     outlet: The Jakarta Post
     title: "Passion for information: Wikipedia contributors share what goes on behind the scenes"
     url: https://www.thejakartapost.com/life/2021/03/25/passion-for-information-wikipedia-contributors-share-what-goes-on-behind-the-scenes.html
-    note: Profiles Ramzy among Indonesian Wikipedia contributors and administrators.
+    note: Profile of Indonesian Wikipedia contributors and administrators, Ramzy among them.
+
+  - date: "29 January 2020"
+    outlet: Slate
+    title: Wikipedia Has Been Unblocked in Turkey, Finally
+    url: https://slate.com/technology/2020/01/wikipedia-ban-turkey-venezuela-china.html
+    note: Quoted as an Indonesian Wikipedia editor on pairing litigation with policy lobbying against website blocks.
 
   - date: "11 November 2019"
     outlet: Rising Voices
     title: Meet Ramzy Muliawan, the host of the @AsiaLangsOnline Twitter account for Nov 12 – 18, 2019
     url: https://rising.globalvoices.org/blog/2019/11/11/meet-ramzy-muliawan-the-host-of-the-asialangsonline-twitter-account-for-nov-12-18-2019/
-    note: Interview on Minangkabau Wikipedia and writing in the Minangkabau language online.
+    note: Interview on Minangkabau Wikipedia and writing in Minangkabau online.
 
   - date: "23 January 2019"
     outlet: The Jakarta Post
     title: Unsold tickets lead airlines to cancel 433 flights
     url: https://www.thejakartapost.com/news/2019/01/23/unsold-tickets-lead-airlines-to-cancel-433-flights.html
-    note: Illustrated with a photo Ramzy published on Wikimedia Commons.
+    note: Uses a photo Ramzy published on Wikimedia Commons.
+
+  - date: "19 October 2018"
+    outlet: Analisa Daily
+    title: Gelar Pelatihan Penyuntingan Artikel di Wikipedia
+    url: https://analisadaily.com/berita/arsip/2018/10/20/636540/gelar-pelatihan-penyuntingan-artikel-di-wikipedia/
+    note: Names him as a speaker at a WikiLatih training at UMSU and an organizer of Minangkabau Wikipedia.
+    lang: id
 
   - date: "2017"
     outlet: Kementerian Agama
     title: 10 Siswa Madrasah Aliyah Terpilih Sebagai Peserta Parlemen Remaja 2017
     url: https://kemenag.go.id/read/10-siswa-madrasah-aliyah-terpilih-sebagai-peserta-parlemen-remaja-2017-oz8d0
-    note: Names Ramzy (MAN 2 Pekanbaru) among students selected for the 2017 Youth Parliament.
+    note: Lists him (MAN 2 Pekanbaru) among students selected for the 2017 Youth Parliament.
     lang: id
 
 writing:
@@ -70,6 +90,12 @@ writing:
     title: Indonesian court acquits worker over defamation charges filed by prominent entrepreneur
     url: https://globalvoices.org/2025/01/28/indonesian-court-acquits-worker-over-defamation-charges-filed-by-prominent-entrepreneur/
 
+  - date: "24 June 2024"
+    outlet: Diff (Wikimedia Foundation)
+    title: "Building a Public Policy Network from Both Sides of the Pacific: Lessons from the 1st Global Wiki Advocacy Meet-up"
+    url: https://diff.wikimedia.org/2024/06/24/building-a-public-policy-network-from-both-sides-of-the-pacific-lessons-from-the-1st-global-wiki-advocacy-meet-up/
+    note: Co-written with Lady01v.
+
   - date: "19 January 2021"
     outlet: Wikimedia Indonesia
     title: Bergotong Royong di Bulan Asia Wikipedia
@@ -78,7 +104,7 @@ writing:
 
   - date: "2021–2024"
     outlet: Diff (Wikimedia Foundation)
-    title: Posts on the Universal Code of Conduct, the ESEAP region, and wiki advocacy
+    title: All posts by Ramzy Muliawan
     url: https://diff.wikimedia.org/author/ramzy-muliawan/
 
   - date: "10 May 2017"
@@ -98,7 +124,37 @@ writing:
     url: https://panditfootball.com/pandit-sharing/180870/PFB/150703/tarkam
     lang: id
 
+  - date: "21 January 2014"
+    outlet: Pandit Football Indonesia
+    title: "Stadion Utama Riau: Antara Euforia, Uang, dan Kekuasaan"
+    url: https://panditfootball.com/pandit-sharing/1792/PFB/140121/stadion-utama-riau-antara-euforia-uang-dan-kekuasaan
+    lang: id
+
 talks:
+  - date: "17 August 2023"
+    outlet: Wikimania 2023
+    title: "Passion and Perspectives, Policy Challenges and Opportunities for the Wikimedia Communities in the ESEAP"
+    url: https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm
+    note: Session recording on Wikimedia Commons.
+
+  - date: "June 2022"
+    outlet: RightsCon 2022
+    title: "When you can't see your city (online): Why you don't want a country without Freedom of Panorama"
+    url: https://diff.wikimedia.org/2022/06/02/meet-the-wikimedians-promoting-free-knowledge-and-human-rights-at-rightscon-22-this-june/
+    note: Lightning talk. The link goes to Diff's preview of Wikimedia sessions at RightsCon.
+
+  - date: "7 February 2022"
+    outlet: Wikimedia Italia
+    title: Indonesia nuova tappa dei viaggi in pausa pranzo
+    url: https://www.wikimedia.it/news/indonesia-nuova-tappa-dei-viaggi-in-pausa-pranzo/
+    note: Guest speaker in Wikimedia Italia's lunchtime talk series.
+    lang: it
+
+  - date: "2021"
+    outlet: Arctic Knot
+    title: The case for multi-project ArbComs in language and cultural groups
+    url: https://www.youtube.com/watch?v=9xbd4fJfZ-k
+
   - outlet: TEDx
     title: Debat Kusir Manusia Kuda
     url: https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda
