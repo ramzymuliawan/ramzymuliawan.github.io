@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: My book chapter, research report, journal articles, and thesis, grouped by digital rights and other work.
+description: My journal articles, book chapter, research report, and thesis, newest first.
 nav: true
 nav_order: 1
 ---
@@ -11,12 +11,20 @@ nav_order: 1
 
 <div class="publications">
 
-<h2 class="mt-4">Digital rights</h2>
+<h2 class="mt-4">Journal articles</h2>
 
-{% bibliography --query @*[category=digital-rights] %}
+{% bibliography --query @article %}
 
-<h2 class="mt-4">Other work</h2>
+<h2 class="mt-4">Book chapters</h2>
 
-{% bibliography --query @*[category=other] %}
+{% bibliography --query @incollection %}
+
+<h2 class="mt-4">Research reports</h2>
+
+{% bibliography --query @techreport %}
+
+<h2 class="mt-4">Theses</h2>
+
+{% bibliography --query @mastersthesis %}
 
 </div>

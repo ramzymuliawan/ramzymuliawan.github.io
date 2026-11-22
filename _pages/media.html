@@ -2,13 +2,13 @@
 layout: page
 permalink: /media/
 title: In the Media
-description: Where I have been quoted or covered, and what I have written for the press, grouped by Wikimedia, digital rights, and other work.
+description: Where I have been quoted or covered, and what I have written for the press, grouped by Wikimedia, digital rights, sportswriting, and other work.
 nav: true
 nav_order: 2
 ---
 
-{% assign cat_keys = "wikimedia,digital-rights,other" | split: "," %}
-{% assign cat_titles = "Wikimedia,Digital rights,Other" | split: "," %}
+{% assign cat_keys = "wikimedia,digital-rights,sportswriting,other" | split: "," %}
+{% assign cat_titles = "Wikimedia,Digital rights,Sportswriting,Other" | split: "," %}
 
 {% for c in cat_keys %}
   {% assign cov = site.data.media.coverage | where: "category", c %}
