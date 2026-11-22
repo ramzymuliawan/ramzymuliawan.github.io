@@ -9,6 +9,14 @@
 #   embed     optional player URL, shown as an embedded video on the speaking page
 
 coverage:
+  - date: "24 August 2026"
+    category: digital-rights
+    outlet: ANTARA Sumatera Barat
+    title: Unand gelar Seminar Internasional bahas urgensi perlindungan data
+    url: https://sumbar.antaranews.com/berita/775624/unand-gelar-seminar-internasional-bahas-urgensi-perlindungan-data
+    note: Lists me as the SAFEnet speaker at the Universitas Andalas Faculty of Law seminar on cross-border privacy enforcement.
+    lang: id
+
   - date: "14 April 2026"
     category: digital-rights
     outlet: Seasia
@@ -34,6 +42,14 @@ coverage:
     archive_note: Indonesian original
     note: I explain Ministerial Decree 127/2026 as an implementing step of PP 71/2019.
 
+  - date: "31 March 2026"
+    category: digital-rights
+    outlet: JurnalPost
+    title: "Digital Freedom Project SFL Indonesia: Refleksi Kebebasan Digital di Indonesia"
+    url: https://jurnalpost.com/digital-freedom-project-sfl-indonesia-refleksi-kebebasan-digital-di-indonesia/91800/
+    note: Reports my remarks at the Students For Liberty Indonesia discussion, on content blocking, buzzers, and slow internet restoration after the North Sumatra and Aceh floods.
+    lang: id
+
   - date: "19 February 2026"
     category: wikimedia
     outlet: The Conversation Indonesia
@@ -43,12 +59,30 @@ coverage:
     note: I comment on the kick-off of the Open Indonesia coalition.
     lang: id
 
+  - date: "25 August 2025"
+    category: digital-rights
+    outlet: Tempo
+    title: Kepentingan Publik dalam Peta Jalan Akal Imitasi
+    url: https://interaktif.tempo.co/proyek/kepentingan-publik-dalam-peta-jalan-akal-imitasi/
+    archive: https://web.archive.org/web/20250930004544/https://interaktif.tempo.co/proyek/kepentingan-publik-dalam-peta-jalan-akal-imitasi/
+    note: Quotes me, as a SAFEnet researcher, on the draft national AI roadmap and on AI governance while government resources shift to programmes such as MBG and Koperasi Merah Putih.
+    lang: id
+
   - date: "14 August 2025"
     category: digital-rights
     outlet: Kabarkota
     title: SIKAP Minta MK Pastikan UU PDP Tak Hambat Kebebasan Informasi
     url: https://www.kabarkota.com/sikap-minta-mk-pastikan-uu-pdp-tak-hambat-kebebasan-informasi/
     note: I speak for SAFEnet on the Constitutional Court challenge to the Personal Data Protection Law.
+    lang: id
+
+  - date: "17 July 2025"
+    category: digital-rights
+    outlet: Jurnal Perempuan
+    title: Layanan Situs Web Pemerintahan Belum Inklusif, Kurang Melibatkan Kelompok Disabilitas
+    url: https://www.jurnalperempuan.org/warta-feminis/layanan-situs-web-pemerintahan-belum-inklusif-kurang-melibatkan-kelompok-disabilitas
+    archive: https://web.archive.org/web/20250717103514/https://www.jurnalperempuan.org/warta-feminis/layanan-situs-web-pemerintahan-belum-inklusif-kurang-melibatkan-kelompok-disabilitas
+    note: Reports my presentation of SAFEnet's findings on how accessible government websites are for blind users, including low WCAG compliance.
     lang: id
 
   - date: "25 March 2021"
@@ -327,6 +361,40 @@ talks:
     url: https://www.youtube.com/watch?v=WGy1HVO8XZM
     note: Panel with Sohini Rajiyung (Internet Society) and Maria Xynou (OONI), moderated by Unggul Sagena (SAFEnet). Recording (30 min).
     embed: https://www.youtube-nocookie.com/embed/WGy1HVO8XZM
+
+  - date: "24 August 2026"
+    category: digital-rights
+    outlet: Faculty of Law, Universitas Andalas, 75th anniversary international seminar (Padang and online)
+    title: "Rethinking Cross-Border Privacy Enforcement: The Rise of Multi-Regulatory Governance"
+    url: https://fhuk.unand.ac.id/agenda/40/international-seminar-rethinking-cross-border-privacy-enforcement.html
+    note: I spoke for SAFEnet alongside Stefan Koos (Universität der Bundeswehr München), Abu Bakar Munir (University of Malaya), and Tita Yowana Alwis (Ministry of Foreign Affairs).
+    links:
+      - label: Report by ANTARA Sumatera Barat
+        url: https://sumbar.antaranews.com/berita/775624/unand-gelar-seminar-internasional-bahas-urgensi-perlindungan-data
+
+  - date: "16 March 2026"
+    category: digital-rights
+    outlet: Students For Liberty Indonesia and Garis Literasi, Universitas Sumatera Utara (online)
+    title: "Apa Pentingnya Kebebasan Kita di Ruang Digital? Refleksi atas Kasus Pelanggaran Hak Digital di Indonesia"
+    url: https://www.youtube.com/watch?v=in5k8IFsCBA&t=519s
+    note: Webinar in the Digital Freedom Project series, moderated by Dicky Herlambang. Recording (58 min), starting at 8:39.
+    lang: id
+    links:
+      - label: Report on JurnalPost
+        url: https://jurnalpost.com/digital-freedom-project-sfl-indonesia-refleksi-kebebasan-digital-di-indonesia/91800/
+    embed: https://www.youtube-nocookie.com/embed/in5k8IFsCBA?start=519
+
+  - date: "15 July 2025"
+    category: digital-rights
+    outlet: SAFEnet research launch
+    title: Aksesibilitas Layanan Situs Web Layanan Publik Indonesia untuk Disabilitas Netra
+    url: https://pustaka.taratsa.id/download/1050/pdf/1050.pdf
+    note: I presented the findings of SAFEnet's research on the accessibility of public-service websites for blind users.
+    lang: id
+    links:
+      - label: Report by Jurnal Perempuan
+        url: https://www.jurnalperempuan.org/warta-feminis/layanan-situs-web-pemerintahan-belum-inklusif-kurang-melibatkan-kelompok-disabilitas
+        archive: https://web.archive.org/web/20250717103514/https://www.jurnalperempuan.org/warta-feminis/layanan-situs-web-pemerintahan-belum-inklusif-kurang-melibatkan-kelompok-disabilitas
 
   - date: "6 December 2024"
     category: wikimedia
