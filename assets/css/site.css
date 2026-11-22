@@ -124,3 +124,52 @@ html body .cv .list-group-item {
   padding-left: 0;
   padding-right: 0;
 }
+
+/* Body text: 1.5 line spacing. */
+html body,
+html body p,
+html body li,
+html body td,
+html body .card-text,
+html body .periodical {
+  line-height: 1.5;
+}
+
+/* Width: standard 960px (max_width in _config.yml), wide 1440px,
+   following Wikimedia's Vector 2022 content and workspace widths. */
+html.site-wide body .container {
+  max-width: 1440px;
+}
+
+html body .width-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1399px) {
+  html body .width-toggle-item {
+    display: none;
+  }
+}
+
+/* Embedded video players (Commons, YouTube). */
+html body .video-embed {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  margin: 0.5rem 0 0.25rem;
+  background: #f1f5f9;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+html body .video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
