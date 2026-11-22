@@ -449,3 +449,9 @@ html body .slide-cover img {
     margin: 0;
   }
 }
+
+/* CV: archive links sit inside sentences, so they stay inline (2.5.8 inline exception). */
+html body .cv-plain .archive-link {
+  display: inline;
+  white-space: normal;
+}
