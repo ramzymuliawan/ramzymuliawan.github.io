@@ -51,9 +51,28 @@ def md_links_to_html(text):
     return re.sub(r"\[(.+?)\]\{lang=([a-z-]+)\}", r'<span lang="\2">\1</span>', text)
 
 
+FULL_MONTHS = ["January", "February", "March", "April", "June", "July", "August", "September", "October", "November", "December"]
+
+
+def short_months(text):
+    """'15 October 2026' -> '15 Oct 2026', matching the CV's month style."""
+    for m in FULL_MONTHS:
+        text = text.replace(m, m[:3])
+    return text
+
+
+def plain_markdown(markdown_text):
+    """Drop pandoc language spans ([text]{lang=id}) so the .md reads cleanly in ordinary Markdown viewers."""
+    return re.sub(r"\[((?:[^\[\]]|\[[^\[\]]*\]\([^)]*\))*)\]\{lang=[a-z-]+\}", r"\1", markdown_text)
+
+
 def build_markdown(cv, talks):
     s = cv["sections"]
-    out = [f"# {cv['name']}", "", f"{cv['label']} · {cv['location']} · {cv['email']}", ""]
+    linkedin = next((n["username"] for n in cv.get("social_networks", []) if n.get("network") == "LinkedIn"), None)
+    contact = [cv["label"], cv["location"], cv["email"], SITE_URL]
+    if linkedin:
+        contact.append(f"linkedin.com/in/{linkedin}")
+    out = [f"# {cv['name']}", "", " · ".join(contact), ""]
 
     def roles(title, items):
         out.extend([f"## {title}", ""])
@@ -93,6 +112,10 @@ def build_markdown(cv, talks):
         out.extend([f"### {heading}", "", meta, ""])
         for h in e.get("highlights") or []:
             out.append(f"- {h}")
+        if e.get("thesis"):
+            th = e["thesis"]
+            title = f"[*{th['title']}*]{{lang={th['lang']}}}" if th.get("lang") else f"*{th['title']}*"
+            out.append(f"- My undergraduate thesis: {title} (English: {th['english']}).")
         out.append("")
 
     out.extend(["## Publications", ""])
@@ -111,12 +134,12 @@ def build_markdown(cv, talks):
 
     out.extend(["## Talks", ""])
     for cat in CATEGORIES:
-        ts = [t for t in talks if t.get("category") == cat]
+        ts = [t for t in talks if t.get("category") == cat and t.get("cv", True) is not False]
         if not ts:
             continue
         out.extend([f"### {CATEGORY_TITLES[cat]}", ""])
         for t in ts:
-            when = f" ({t['date']})" if t.get("date") else ""
+            when = f" ({short_months(t['date'])})" if t.get("date") else ""
             link = f"[{t['title']}]({t['url']})"
             if t.get("lang"):
                 link = f"[{link}]{{lang={t['lang']}}}"
@@ -217,7 +240,7 @@ def main():
 
     md_text = build_markdown(cv, talks)
     md_path = out_dir / f"{BASENAME}.md"
-    md_path.write_text(md_text, encoding="utf-8")
+    md_path.write_text(plain_markdown(md_text), encoding="utf-8")
 
     import pypandoc
 

@@ -73,7 +73,7 @@ coverage:
     title: Kepentingan Publik dalam Peta Jalan Akal Imitasi
     url: https://interaktif.tempo.co/proyek/kepentingan-publik-dalam-peta-jalan-akal-imitasi/
     archive: https://web.archive.org/web/20250930004544/https://interaktif.tempo.co/proyek/kepentingan-publik-dalam-peta-jalan-akal-imitasi/
-    note: Quotes me, as a SAFEnet researcher, on the draft national AI roadmap and on AI governance while government resources shift to programmes such as MBG and Koperasi Merah Putih.
+    note: Quotes me, as a SAFEnet researcher, on the draft national AI roadmap and on AI governance while government resources shift to programs such as MBG and Koperasi Merah Putih.
     lang: id
 
   - date: "14 August 2025"
@@ -450,10 +450,11 @@ talks:
   - date: "1–15 March 2025"
     category: digital-rights
     outlet: Indonesia School on Internet Governance (IDSIG) 2025 (online)
-    title: Organising committee, inaugural edition
+    title: Organizing committee, inaugural edition
+    cv: false
     url: https://icannwiki.org/Indonesia_School_on_Internet_Governance
     archive: https://web.archive.org/web/20250719204231/https://icannwiki.org/Indonesia_School_on_Internet_Governance
-    note: I was on the organising committee of the first Indonesia School on Internet Governance, a two-week online course on the principles, norms, and decision-making that shape the Internet.
+    note: I was on the organizing committee of the first Indonesia School on Internet Governance, a two-week online course on the principles, norms, and decision-making that shape the Internet.
 
   - date: "15 February 2025"
     category: digital-rights

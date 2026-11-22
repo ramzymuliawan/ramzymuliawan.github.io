@@ -37,7 +37,8 @@ nav_order: 5
 <div class="cv-plain">
   <p class="cv-contact">
     {{ cv.label }} · {{ cv.location }} ·
-    <a href="mailto:{{ cv.email }}">{{ cv.email }}</a>
+    <a href="mailto:{{ cv.email }}">{{ cv.email }}</a> ·
+    <a href="https://www.linkedin.com/in/{{ cv.social_networks[0].username }}">LinkedIn</a>
   </p>
 
   {% assign blocks = "Experience" | split: "," %} {% assign block_ids = "experience" | split: "," %} {% assign block_titles = "Experience" | split:
@@ -106,7 +107,11 @@ nav_order: 5
       <ul>
         {% for h in e.highlights %}
         <li>{{ h | markdownify | strip_html | strip }}</li>
-        {% endfor %}
+        {% endfor %} {% if e.thesis %}
+        <li>
+          My undergraduate thesis: <cite lang="{{ e.thesis.lang | default: 'en' }}">{{ e.thesis.title }}</cite> (English: {{ e.thesis.english }}).
+        </li>
+        {% endif %}
       </ul>
       {% endif %}
     </div>
@@ -136,11 +141,13 @@ nav_order: 5
     for c in cat_keys %} {% assign ts = site.data.media.talks | where: "category", c %} {% if ts.size > 0 %}
     <h3 class="cv-category">{{ cat_titles[forloop.index0] }}</h3>
     <ul>
-      {% for t in ts %}
+      {% for t in ts %} {% if t.cv == false %}{% continue %}{% endif %} {% assign tdate = t.date | replace: 'January', 'Jan' | replace: 'February',
+      'Feb' | replace: 'March', 'Mar' | replace: 'April', 'Apr' | replace: 'June', 'Jun' | replace: 'July', 'Jul' | replace: 'August', 'Aug' |
+      replace: 'September', 'Sep' | replace: 'October', 'Oct' | replace: 'November', 'Nov' | replace: 'December', 'Dec' %}
       <li>
         {{ t.outlet }}: <a href="{{ t.url }}" {% if t.lang %} lang="{{ t.lang }}" {% endif %}>{{ t.title }}</a>{% if t.archive %}
         <a class="archive-link" href="{{ t.archive }}">(Internet Archive version{% if t.archive_note %}, {{ t.archive_note }}{% endif %})</a>{% endif
-        %}{% if t.date %} ({{ t.date }}){% endif %}
+        %}{% if t.date %} ({{ tdate }}){% endif %}
       </li>
       {% endfor %}
     </ul>
