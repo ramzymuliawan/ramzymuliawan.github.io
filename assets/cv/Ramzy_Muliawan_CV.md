@@ -133,7 +133,7 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 
 ### Other
 
-- TEDxBatangArau: [[Debat Kusir Manusia Kuda](https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda)]{lang=id} (2019)
+- TEDxBatangArau: [[Debat Kusir Manusia Kuda](https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda)]{lang=id} (3 August 2019)
 
 ## Certificates
 
