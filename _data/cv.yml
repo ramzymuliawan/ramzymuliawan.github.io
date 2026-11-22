@@ -157,6 +157,14 @@ cv:
         end_date: 2017-06
 
     Publications:
+      - title: "Strategic Recommendations: Strengthening National Digital Sovereignty through Human Rights-Based AI Incident Reporting"
+        authors:
+          - Muliawan, M.R.
+        publisher: "EngageMedia. Civil society position paper, drafted by me for SAFEnet with contributions from partner organisations"
+        releaseDate: 2026-10
+        url: https://engagemedia.org/2026/strategic-recommendations-ai-incident-reporting/
+        archive: https://web.archive.org/web/20261030123838/https://engagemedia.org/2026/strategic-recommendations-ai-incident-reporting/
+
       - title: Hukum Persaingan Usaha sebagai Jalan Alternatif Pertanggungjawaban Perusahaan Teknologi Gergasi (Big Tech) di Indonesia
         lang: id
         authors:
@@ -164,6 +172,14 @@ cv:
         publisher: "In M.N. Ramadhan (ed.), Memperluas Partisipasi, Melawan Represi: Kumpulan Tulisan Konferensi Nasional Kebebasan Sipil 2025, pp. 397-420. Jakarta: Pusat Studi Hukum dan Kebijakan Indonesia. ISBN 978-602-97661-5-8. Developed from my Monash University Indonesia capstone research paper (2025)"
         releaseDate: 2026-06
         url: /assets/pdf/2026-11-22_Muliawan_2026_Hukum-Persaingan-Usaha-Big-Tech_PSHK.pdf
+
+      - title: National Civil Society Organisations Position Paper for Indonesia's Artificial Intelligence (AI) Roadmap 2025
+        authors:
+          - Pamungkas, P.
+        publisher: "EngageMedia, Jakarta. Prepared with contributions from a civil society network; I contributed for SAFEnet"
+        releaseDate: 2025-07
+        url: https://engagemedia.org/2025/cso-position-paper-indonesia-ai-roadmap-2025/
+        archive: https://web.archive.org/web/20250917013229/https://engagemedia.org/2025/cso-position-paper-indonesia-ai-roadmap-2025/
 
       - title: Laporan Riset Aksesibilitas Situs Web Layanan Publik Indonesia untuk Disabilitas Netra
         lang: id

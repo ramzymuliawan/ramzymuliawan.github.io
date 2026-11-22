@@ -467,9 +467,12 @@ talks:
     url: https://gv2024.sched.com/event/1r0rp/how-to-make-the-internet-more-multilingual-with-lingualibre
     note: Presented with Subhashish Panigrahi.
     links:
+      - label: Slides (Google Slides)
+        url: https://docs.google.com/presentation/d/19uy4HCnSZTKjlhRQl3SulMIvdId2c-oDVHi9Is7yr24/edit
       - label: Photo on Wikimedia Commons
         url: https://commons.wikimedia.org/wiki/File:Subhashish_and_Ramzy%27s_Presentation.jpg
         archive: https://web.archive.org/web/20250910192907/https://commons.wikimedia.org/wiki/File:Subhashish_and_Ramzy%27s_Presentation.jpg
+    cover: /assets/img/talks/2024-12-06_GV-Summit-2024_cover.jpg
 
   - date: "9 August 2024"
     category: wikimedia
