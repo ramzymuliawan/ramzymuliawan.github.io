@@ -380,3 +380,13 @@ html body .post ul ul {
 html body .post li {
   margin-bottom: 0.35rem;
 }
+
+/* The CV keeps its bullet points. */
+html body .post .cv-plain ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+
+html body .post .cv-plain ul ul {
+  list-style: circle;
+}
