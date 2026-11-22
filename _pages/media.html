@@ -2,13 +2,13 @@
 layout: page
 permalink: /media/
 title: In the Media
-description: Where I have been quoted or covered, what I have written for the press, and my talks.
+description: Where I have been quoted or covered, and what I have written for the press.
 nav: true
 nav_order: 2
 ---
 
-{% assign keys = "coverage,writing,talks" | split: "," %}
-{% assign headings = "Coverage and quotes,My writing for the press,My talks" | split: "," %}
+{% assign keys = "coverage,writing" | split: "," %}
+{% assign headings = "Coverage and quotes,My writing for the press" | split: "," %}
 
 {% for key in keys %}
   {% assign items = site.data.media[key] %}

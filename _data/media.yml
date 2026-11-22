@@ -1,6 +1,8 @@
-# Entries for the "In the Media" page (_pages/media.html).
+# Entries for the "In the Media" page (coverage, writing) and the
+# "Speaking and Public Engagement" page (talks).
 # Add new items at the top of each list. Fields: date (as it should display, e.g. "14 April 2026"),
-# outlet, title, url, note (one line, optional), lang (optional: id = Indonesian, it = Italian).
+# outlet, title, url, note (one line, optional), lang (optional: id = Indonesian, it = Italian),
+# embed (optional: player URL shown as an embedded video on the speaking page).
 
 coverage:
   - date: "11 November 2026"
@@ -157,13 +159,15 @@ talks:
     outlet: Wikimania 2023
     title: "Passion and Perspectives, Policy Challenges and Opportunities for the Wikimedia Communities in the ESEAP"
     url: https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm
-    note: Panel recording on Wikimedia Commons (1 h 10 min).
+    embed: https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm?embedplayer=yes
+    note: Panel recording (1 h 10 min).
 
   - date: "June 2022"
     outlet: RightsCon 2022
     title: "When you can't see your city (online): Why you don't want a country without Freedom of Panorama"
     url: https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm
-    note: My lightning talk, recorded on Wikimedia Commons (5 min).
+    embed: https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm?embedplayer=yes
+    note: My lightning talk (5 min).
 
   - date: "7 February 2022"
     outlet: Wikimedia Italia
@@ -176,7 +180,8 @@ talks:
     outlet: Wikimedia Foundation
     title: Universal Code of Conduct Roundtable
     url: https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm
-    note: I co-moderated this roundtable. Recording on Wikimedia Commons (44 min).
+    embed: https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm?embedplayer=yes
+    note: I co-moderated this roundtable (44 min).
 
   - date: "2021"
     outlet: Arctic Knot Conference
@@ -187,4 +192,5 @@ talks:
   - outlet: TEDx
     title: Debat Kusir Manusia Kuda
     url: https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda
+    embed: https://www.youtube-nocookie.com/embed/STTojuBMwZA
     lang: id
