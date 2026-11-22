@@ -479,3 +479,41 @@ html body .case-list p {
 html body .case-list .case-links a {
   display: inline-block;
 }
+
+/* Navbar: keep six pages on one line. Link labels never break mid-label; the search
+   button shows only its icon (it keeps its "Open search" label for screen readers). */
+@media (min-width: 576px) {
+  html body #navbar .nav-link {
+    white-space: nowrap;
+    font-size: 0.875rem;
+    padding-left: 0.35rem !important;
+    padding-right: 0.35rem !important;
+  }
+
+  html body #search-toggle .nav-link {
+    font-size: 0;
+  }
+
+  html body #search-toggle .nav-link i {
+    font-size: 1rem;
+  }
+
+  html body #navbar .navbar-menu-list {
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (min-width: 992px) {
+  html body #navbar .container {
+    flex-wrap: nowrap;
+  }
+
+  html body #navbar .navbar-collapse {
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+
+  html body #navbar .navbar-menu-list {
+    flex-wrap: nowrap !important;
+  }
+}
