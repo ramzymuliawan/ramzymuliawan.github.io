@@ -133,7 +133,7 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 
 ### Digital rights
 
-- Asia Pacific Regional Internet Governance Forum (APrIGF) 2026: [Closing the Last-Mile Gap: A Civil Society Approach to Internet Quality Measurement in Rural Indonesia](https://www.youtube.com/watch?v=WGy1HVO8XZM) (2026)
+- Asia Pacific Regional Internet Governance Forum (APrIGF) 2026: [Closing the Last-Mile Gap: A Civil Society Approach to Internet Quality Measurement in Rural Indonesia](https://www.youtube.com/watch?v=WGy1HVO8XZM) (6 October 2026)
 
 ### Other
 
