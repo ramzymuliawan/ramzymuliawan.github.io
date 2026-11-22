@@ -114,15 +114,15 @@ cv:
         highlights:
           - I represented SAFEnet in the Policy Network on Artificial Intelligence's Multistakeholder Working Group (PNAI-MWG), an initiative of the Internet Governance Forum Secretariat.
 
-      - company: Wikimania
-        position: Scholarship Subcommittee (2023); Scholarship Review Working Group (2024)
-        start_date: 2023
-        end_date: 2024
-
       - company: Southeast Asia Freedom of Expression Network (SAFEnet)
         position: Member, Internet Governance and Access Working Group
         location: Jakarta
         start_date: 2023-08
+
+      - company: Wikimania
+        position: Scholarship Subcommittee (2023); Scholarship Review Working Group (2024)
+        start_date: 2023
+        end_date: 2024
 
       - company: The House of Representatives, Republic of Indonesia (DPR RI)
         position: Member of the Youth Parliament
@@ -149,12 +149,14 @@ cv:
 
     Publications:
       - title: Hukum Persaingan Usaha sebagai Jalan Alternatif Pertanggungjawaban Perusahaan Teknologi Gergasi (Big Tech) di Indonesia
+        lang: id
         authors:
           - Muliawan, M.R.
         publisher: "Memperluas Partisipasi, Melawan Represi: Kumpulan Tulisan Konferensi Nasional Kebebasan Sipil 2025. Pusat Studi Hukum dan Kebijakan Indonesia. Developed from my Monash University Indonesia capstone research paper (2025)"
         releaseDate: 2026
 
       - title: Laporan Riset Aksesibilitas Situs Web Layanan Publik Indonesia untuk Disabilitas Netra
+        lang: id
         authors:
           - Muliawan, M.R.
           - Salim, I.
@@ -164,6 +166,7 @@ cv:
         url: https://pustaka.taratsa.id/download/1050/pdf/1050.pdf
 
       - title: "Implementasi Tanggung Jawab Sosial dan Lingkungan (TJSL) dalam the OECD Guidelines for Multinational Enterprises oleh Korporasi Transnasional di Indonesia (Studi atas Kebijakan Sosial, HAM, dan Lingkungan Hidup PT. Freeport Indonesia)"
+        lang: id
         authors:
           - Muliawan, M.R.
         publisher: "Universitas Andalas (undergraduate thesis). English: Implementation of Social and Environmental Responsibility under the OECD Guidelines for Multinational Enterprises by Transnational Corporations in Indonesia (A Study of PT. Freeport Indonesia's Social, Human Rights, and Environmental Policies)"
@@ -179,6 +182,7 @@ cv:
         url: https://doi.org/10.30996/jhbbc.v4i2.5394
 
       - title: "Reformasi Administrasi dan Reorientasi Perizinan Berusaha pada Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja terhadap Perkembangan Ekonomi Nasional: Studi terhadap Sektor Energi dan Sumber Daya Mineral"
+        lang: id
         authors:
           - Pratama, A.R.P.
           - Muliawan, M.R.
@@ -191,10 +195,12 @@ cv:
         date: 2023
 
       - name: Ujian Profesi Advokat
+        lang: id
         issuer: Indonesian Advocates Association (PERADI), Jakarta
         date: 2023
 
       - name: Pendidikan Khusus Profesi Advokat
+        lang: id
         issuer: Indonesian Advocates Association (PERADI), Jakarta
         date: 2023
 
@@ -219,17 +225,6 @@ cv:
       - title: 6th Breaking National Adjudicator
         awarder: National University Debating Championship, Indonesian Ministry of Culture and Education, Surabaya
         date: 2019
-
-    Talks:
-      - bullet: "EduWiki Hub Workshop: [speaker](https://commons.wikimedia.org/wiki/File:Ramzy_Muliawan_EduWiki_Hub_Workshop.png) (Oct. 2026)"
-      - bullet: "Global Voices Summit 2024, Nepal: [presentation with Subhashish Panigrahi](https://commons.wikimedia.org/wiki/File:Subhashish_and_Ramzy%27s_Presentation.jpg) (Dec. 2024)"
-      - bullet: "Wikimania 2024: [Supporting minority languages and Wikimedia's global community](https://commons.wikimedia.org/wiki/File:Supporting_minority_languages_and_Wikimedia%27s_global_community_-_Ramzy_Muliawan_-_01.jpg) (Aug. 2024)"
-      - bullet: "Wikimania 2023: [Passion and Perspectives, Policy Challenges and Opportunities for the Wikimedia Communities in the ESEAP](https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm) (Aug. 2023)"
-      - bullet: "RightsCon 2022: [When you can't see your city (online): Why you don't want a country without Freedom of Panorama](https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm) (Jun. 2022)"
-      - bullet: "Wikimedia Italia: [Indonesia nuova tappa dei viaggi in pausa pranzo](https://www.wikimedia.it/news/indonesia-nuova-tappa-dei-viaggi-in-pausa-pranzo/) (Feb. 2022)"
-      - bullet: "Wikimedia Foundation: [Universal Code of Conduct Roundtable](https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm), co-moderator (Aug. 2021)"
-      - bullet: "Arctic Knot Conference 2021: [The case for multi-project ArbComs in language and cultural groups](https://commons.wikimedia.org/wiki/File:Arctic_Knot_Conference_2021_-_xwikiarb_(Ramzy_Muliawan).pdf), lightning talk"
-      - bullet: "TEDx: [Debat Kusir Manusia Kuda](https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda)"
 
     Languages:
       - name: Malay

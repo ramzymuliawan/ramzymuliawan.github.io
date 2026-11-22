@@ -9,6 +9,7 @@ module.exports = {
     "width-toggle-item",
     "width-toggle-label",
     "video-embed",
+    "skip-link",
     "collapse",
     "collapsing",
     "show",

@@ -1,0 +1,139 @@
+---
+layout: page
+permalink: /cv/
+title: CV
+description: My education, experience, publications, talks, and affiliations.
+nav: true
+nav_order: 4
+---
+
+{% assign cv = site.data.cv.cv %}
+{% assign s = cv.sections %}
+
+<nav class="cv-contents" aria-label="CV sections">
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#experience">Experience</a></li>
+    <li class="list-inline-item"><a href="#volunteer">Volunteer and service</a></li>
+    <li class="list-inline-item"><a href="#education">Education</a></li>
+    <li class="list-inline-item"><a href="#publications">Publications</a></li>
+    <li class="list-inline-item"><a href="#talks">Talks</a></li>
+    <li class="list-inline-item"><a href="#certificates">Certificates</a></li>
+    <li class="list-inline-item"><a href="#awards">Awards</a></li>
+    <li class="list-inline-item"><a href="#languages">Languages</a></li>
+    <li class="list-inline-item"><a href="#affiliations">Affiliations</a></li>
+  </ul>
+</nav>
+
+<div class="cv-plain">
+  <p class="cv-contact">
+    {{ cv.label }} · {{ cv.location }} ·
+    <a href="mailto:{{ cv.email }}">{{ cv.email }}</a>
+  </p>
+
+  {% assign blocks = "Experience,Volunteer" | split: "," %}
+  {% assign block_ids = "experience,volunteer" | split: "," %}
+  {% assign block_titles = "Experience,Volunteer and service" | split: "," %}
+  {% for b in blocks %}
+    <section aria-labelledby="{{ block_ids[forloop.index0] }}">
+      <h2 id="{{ block_ids[forloop.index0] }}">{{ block_titles[forloop.index0] }}</h2>
+      {% for e in s[b] %}
+        <div class="cv-entry">
+          <h3>{{ e.position }}</h3>
+          <p class="cv-meta">
+            {{ e.company }}
+            {% if e.location %}· {{ e.location }}{% endif %}
+            ·
+            {% if e.start_date %}{% include cv-date.liquid date=e.start_date %}{% endif %}
+            {% if e.end_date %}
+              {% assign sd = e.start_date | append: "" %}{% assign ed = e.end_date | append: "" %}
+              {% if sd != ed %}– {% include cv-date.liquid date=e.end_date %}{% endif %}
+            {% else %}– present{% endif %}
+          </p>
+          {% if e.highlights %}
+            <ul>
+              {% for h in e.highlights %}<li>{{ h | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </section>
+  {% endfor %}
+
+  <section aria-labelledby="education">
+    <h2 id="education">Education</h2>
+    {% for e in s.Education %}
+      <div class="cv-entry">
+        <h3>{{ e.studyType }}{% if e.area %}, {{ e.area }}{% endif %}</h3>
+        <p class="cv-meta">
+          {{ e.institution }}{% if e.location %} · {{ e.location }}{% endif %} ·
+          {% include cv-date.liquid date=e.start_date %}{% assign sd = e.start_date | append: "" %}{% assign ed = e.end_date | append: "" %}{% if e.end_date and sd != ed %} – {% include cv-date.liquid date=e.end_date %}{% endif %}
+        </p>
+        {% if e.highlights %}
+          <ul>
+            {% for h in e.highlights %}<li>{{ h | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
+
+  <section aria-labelledby="publications">
+    <h2 id="publications">Publications</h2>
+    <ul>
+      {% for p in s.Publications %}
+        <li>
+          {{ p.authors | join: ", " }} ({{ p.releaseDate | append: "" | split: "-" | first }}).
+          {% if p.url %}<a href="{{ p.url }}"{% if p.lang %} lang="{{ p.lang }}"{% endif %}>{{ p.title }}</a>{% else %}<cite{% if p.lang %} lang="{{ p.lang }}"{% endif %}>{{ p.title }}</cite>{% endif %}.
+          {{ p.publisher }}.
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="talks">
+    <h2 id="talks">Talks</h2>
+    <ul>
+      {% for t in site.data.media.talks %}
+        <li>
+          {{ t.outlet }}:
+          <a href="{{ t.url }}"{% if t.lang %} lang="{{ t.lang }}"{% endif %}>{{ t.title }}</a>{% if t.date %} ({{ t.date }}){% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ '/speaking/' | relative_url }}">Recordings and details are on my speaking page.</a></p>
+  </section>
+
+  <section aria-labelledby="certificates">
+    <h2 id="certificates">Certificates</h2>
+    <ul>
+      {% for c in s.Certificates %}
+        <li><span{% if c.lang %} lang="{{ c.lang }}"{% endif %}>{{ c.name }}</span>, {{ c.issuer }}{% if c.date %} ({{ c.date }}){% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="awards">
+    <h2 id="awards">Awards</h2>
+    <ul>
+      {% for a in s.Awards %}
+        <li>
+          {% if a.url %}<a href="{{ a.url }}">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}, {{ a.awarder }} ({{ a.date }})
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="languages">
+    <h2 id="languages">Languages</h2>
+    <ul>
+      {% for l in s.Languages %}<li>{{ l.name }}: {{ l.summary }}</li>{% endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="affiliations">
+    <h2 id="affiliations">Affiliations</h2>
+    <ul>
+      {% for a in s.Affiliations %}<li>{{ a.bullet }}</li>{% endfor %}
+    </ul>
+  </section>
+</div>

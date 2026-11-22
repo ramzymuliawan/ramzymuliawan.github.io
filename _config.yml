@@ -14,6 +14,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   <script src="/assets/js/width-toggle.js" defer></script>
+  <script src="/assets/js/a11y.js" defer></script>
 keywords: Ramzy Muliawan, law, public policy, free knowledge, digital rights, Wikimedia # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚖️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -377,7 +378,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: none
   group_order: descending
 
 # Display different badges withs stats for your publications
@@ -408,6 +409,8 @@ filtered_bibtex_keywords:
     hal,
     html,
     inspirehep_id,
+    language,
+    venue_language,
     pdf,
     pmid,
     poster,
