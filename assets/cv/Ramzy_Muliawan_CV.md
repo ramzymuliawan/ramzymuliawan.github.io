@@ -134,6 +134,9 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 ### Digital rights
 
 - Asia Pacific Regional Internet Governance Forum (APrIGF) 2026: [Closing the Last-Mile Gap: A Civil Society Approach to Internet Quality Measurement in Rural Indonesia](https://www.youtube.com/watch?v=WGy1HVO8XZM) (6 October 2026)
+- Faculty of Law, Universitas Andalas, 75th anniversary international seminar (Padang and online): [Rethinking Cross-Border Privacy Enforcement: The Rise of Multi-Regulatory Governance](https://fhuk.unand.ac.id/agenda/40/international-seminar-rethinking-cross-border-privacy-enforcement.html) (24 August 2026)
+- Students For Liberty Indonesia and Garis Literasi, Universitas Sumatera Utara (online): [[Apa Pentingnya Kebebasan Kita di Ruang Digital? Refleksi atas Kasus Pelanggaran Hak Digital di Indonesia](https://www.youtube.com/watch?v=in5k8IFsCBA&t=519s)]{lang=id} (16 March 2026)
+- SAFEnet research launch: [[Aksesibilitas Layanan Situs Web Layanan Publik Indonesia untuk Disabilitas Netra](https://pustaka.taratsa.id/download/1050/pdf/1050.pdf)]{lang=id} (15 July 2025)
 
 ### Other
 
