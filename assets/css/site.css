@@ -440,3 +440,27 @@ html body .cv-plain .archive-link {
   display: inline;
   white-space: normal;
 }
+
+/* Litigation and Advocacy: one block per case. */
+html body .case-list .case {
+  margin-bottom: 2rem;
+}
+
+html body .case-list .case-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+
+html body .case-list .case-meta {
+  color: var(--site-muted);
+  margin-bottom: 0.5rem;
+}
+
+html body .case-list p {
+  margin-bottom: 0.5rem;
+}
+
+html body .case-list .case-links a {
+  display: inline-block;
+}
