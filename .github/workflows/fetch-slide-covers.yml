@@ -1,0 +1,40 @@
+name: Fetch slide covers
+
+# Downloads the first slide of each deck listed below, resizes it, and commits it
+# to assets/img/talks/. Run by hand from the Actions tab after adding a line.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and resize covers
+        run: |
+          set -u
+          mkdir -p assets/img/talks
+          fetch() {
+            out="$1"; url="$2"
+            if [ -f "$out" ]; then echo "keep $out"; return; fi
+            if curl -fsSL -A "ramzymuliawan.github.io slide-cover fetch" -o /tmp/cover "$url"; then
+              convert /tmp/cover[0] -resize 960x -strip -quality 82 "$out" && echo "wrote $out"
+            else
+              echo "::warning::could not download $url"
+            fi
+          }
+          fetch assets/img/talks/2022-06-05_WikiNusantara-2022_cover.jpg \
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Strategi_Gerakan_untuk_Komunitas_Wikimedia_di_Indonesia.pdf/page1-1280px-Strategi_Gerakan_untuk_Komunitas_Wikimedia_di_Indonesia.pdf.jpg"
+          fetch assets/img/talks/2023-05-20_WikiNusantara-2023_cover.jpg \
+            "https://docs.google.com/presentation/d/1o3E0kaqvKbAFzPcvN5SscqIwKSMsx0FhUt6PHqBcal0/export/png"
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/img/talks
+          git diff --cached --quiet && echo "nothing new" || git commit -m "Add slide covers"
+          git push
