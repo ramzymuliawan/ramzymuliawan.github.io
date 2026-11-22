@@ -153,15 +153,18 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 
 - TEDxBatangArau: [[Debat Kusir Manusia Kuda](https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda)]{lang=id} (3 August 2019)
 
-## Certificates
+## Licenses, fellowships, and certifications
 
+- [Internet Policy and Mobilization (Internet Policy Subtrack)](https://certificates.isoc.org/520d9cf9-508f-4c96-8a51-a160446942b7), Internet Society (November 2026)
+- Digital Rights in Asia-Pacific Fellowship, EngageMedia (June 2026)
+- [International Fellow](https://insig.in/fellows-2025/) ([Internet Archive version](https://web.archive.org/web/20250808200823/https://insig.in/fellows-2025/)), India School on Internet Governance (inSIG) 2025, Goa (2025)
+- Internet Rules: Unboxing Digital Laws in Southeast Asia (workshop), Association for Progressive Communications (APC) (November 2023)
 - Foundations of Intercultural Learning and Global Competence, AFS Intercultural Programs, New York City (2023)
 - [Ujian Profesi Advokat]{lang=id}, Indonesian Advocates Association (PERADI), Pekanbaru (2023)
 - [Pendidikan Khusus Profesi Advokat]{lang=id}, Indonesian Advocates Association (PERADI), Pekanbaru (2023)
 
 ## Awards
 
-- International Fellow, India School on Internet Governance (inSIG) 2025, Goa (2025) ([Internet Archive version](https://web.archive.org/web/20250808200823/https://insig.in/fellows-2025/))
 - 2nd Novice Best Speaker, Dipo Open British Parliamentary debating competition, Semarang (2020)
 - Novice Semi-Finalist, Java Overland English Debating competition (JOVED), Bandung (2020)
 - Top 30 Oralist, Indonesian National Rounds of the Philip C. Jessup International Law Moot Court Competition, Indonesia Society for International Law, Jakarta (2020)
