@@ -401,6 +401,30 @@ talks:
     lang: id
     embed: https://www.youtube-nocookie.com/embed/xS1DWbDz_CI
 
+  - date: "8 June 2026"
+    category: digital-rights
+    outlet: Digital Rights Asia-Pacific Assembly (DRAPAC26), SMX Aura Convention Centre, Manila
+    title: "Breaking the Invisible Digital Walls: Examining the Accessibility of Public Service Websites for the Visually Impaired"
+    url: https://docs.google.com/presentation/d/1V91N9iOGS_9sZBseMTKpb2vFsU-QQEcaqhRccfejiLg/edit
+    note: My co-learning workshop for SAFEnet on findings from automated accessibility audits and user testing with blind and low-vision participants. The title links to the slides.
+    links:
+      - label: APC on its sessions at DRAPAC26
+        url: https://www.apc.org/en/news/apc-drapac-2026
+        archive: https://web.archive.org/web/20260605093259/https://www.apc.org/en/news/apc-drapac-2026
+      - label: A respondent's reflection (NetMission.Asia)
+        url: https://netmission.asia/2026/07/08/building-inclusive-digital-futures-reflections-from-my-drapac26-fellowship-journey/
+      - label: SAFEnet at DRAPAC26 (Instagram)
+        url: https://www.instagram.com/p/DZRgUkaj9QI/?img_index=2
+    cover: /assets/img/talks/2026-06-08_DRAPAC26_cover.jpg
+
+  - date: "6 June 2026"
+    category: digital-rights
+    outlet: Monash University Indonesia, guest lecture
+    title: "When Digital Government Shuts People Out: Web Accessibility of Indonesian Public Service Websites for People with Visual Impairments"
+    url: https://docs.google.com/presentation/d/1KltjxprKSWMAvt2PSawgxoCn2hY1cMso/edit
+    note: My guest lecture for SAFEnet on how accessible Indonesian public service websites are for blind and low-vision users. The title links to the slides.
+    cover: /assets/img/talks/2026-06-06_Monash-guest-lecture_cover.jpg
+
   - date: "16 May 2026"
     category: wikimedia
     outlet: Wikimedia ESEAP Conference 2026 (Kaohsiung, Taiwan)

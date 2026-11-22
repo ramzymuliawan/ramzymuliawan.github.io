@@ -37,6 +37,10 @@ jobs:
             "https://docs.google.com/presentation/d/19uy4HCnSZTKjlhRQl3SulMIvdId2c-oDVHi9Is7yr24/export/png"
           fetch assets/img/talks/2026-10-10_IDSIG-2026_cover.jpg \
             "https://docs.google.com/presentation/d/11xS2fUyRHD-MLd9GRTstrqUMmz4a1pv9oQrN3eqoeW8/export/png"
+          fetch assets/img/talks/2026-06-08_DRAPAC26_cover.jpg \
+            "https://docs.google.com/presentation/d/1V91N9iOGS_9sZBseMTKpb2vFsU-QQEcaqhRccfejiLg/export/png"
+          fetch assets/img/talks/2026-06-06_Monash-guest-lecture_cover.jpg \
+            "https://drive.google.com/thumbnail?id=1KltjxprKSWMAvt2PSawgxoCn2hY1cMso&sz=w1600"
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
