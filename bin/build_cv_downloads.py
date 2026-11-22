@@ -145,6 +145,22 @@ def build_markdown(cv, talks):
     return "\n".join(out)
 
 
+def unbullet(markdown_text):
+    """Turn list items into plain paragraphs, so the Markdown and Word files have no bullet points."""
+    out = []
+    for line in markdown_text.split("\n"):
+        m = re.match(r"^( *)- (.*)$", line)
+        if m:
+            if out and out[-1] != "":
+                out.append("")
+            out.extend([m.group(2), ""])
+        else:
+            if line == "" and out and out[-1] == "":
+                continue
+            out.append(line)
+    return "\n".join(out)
+
+
 def build_html(markdown_text, font_dir):
     """Small Markdown-to-HTML pass for the fixed structure produced above."""
     lines = markdown_text.split("\n")
@@ -189,11 +205,10 @@ def build_html(markdown_text, font_dir):
     h2 {{ font-size: 12.5pt; color: #0f766e; border-bottom: 0.6pt solid #e2e8f0; padding-bottom: 2pt; margin: 14pt 0 6pt; }}
     h3 {{ font-size: 10.5pt; margin: 8pt 0 0; }}
     h4 {{ font-size: 10pt; margin: 6pt 0 1pt; }}
-    li.sub {{ margin-left: 14pt; list-style-type: circle; }}
+    li.sub {{ margin-left: 14pt; }}
     p.meta {{ color: #64748b; margin: 0 0 3pt; }}
-    ul {{ margin: 0 0 4pt; padding-left: 14pt; }}
+    ul {{ margin: 0 0 4pt; padding-left: 0; list-style: none; }}
     li {{ margin-bottom: 2pt; }}
-    li::marker {{ font-family: "Plus Jakarta Sans", sans-serif; }}
     a {{ color: #0f766e; text-decoration: underline; }}
     h2, h3, h4 {{ break-after: avoid; }}
     """
@@ -213,12 +228,12 @@ def main():
 
     md_text = build_markdown(cv, talks)
     md_path = out_dir / f"{BASENAME}.md"
-    md_path.write_text(md_text, encoding="utf-8")
+    md_path.write_text(unbullet(md_text), encoding="utf-8")
 
     import pypandoc
 
     # The name becomes the Word document's Title (also its document property), so drop the "# " line.
-    docx_md = md_text.split("\n", 1)[1]
+    docx_md = unbullet(md_text).split("\n", 1)[1]
     pypandoc.convert_text(docx_md, "docx", format="markdown", outputfile=str(out_dir / f"{BASENAME}.docx"),
                           extra_args=["--metadata", f"title={cv['name']}", "--metadata", "lang=en"])
 

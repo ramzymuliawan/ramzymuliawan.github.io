@@ -365,3 +365,18 @@ html body .archive-link {
   color: #475569;
   margin-left: 0.25rem;
 }
+
+/* No bullet points anywhere in page content. Lists stay lists for screen readers. */
+html body .post ul,
+html body .post ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+html body .post ul ul {
+  padding-left: 1.25rem;
+}
+
+html body .post li {
+  margin-bottom: 0.35rem;
+}
