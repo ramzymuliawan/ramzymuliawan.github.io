@@ -17,6 +17,7 @@ module.exports = {
     "archive-link",
     "talk-row",
     "talk-text",
+    "talk-list",
     "collapse",
     "collapsing",
     "show",

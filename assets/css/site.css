@@ -421,3 +421,8 @@ html body .archive-link {
 html body .media-list .talk-text > div > a:first-child {
   display: inline-block;
 }
+
+/* Speaking: session titles in bold. */
+html body .talk-list .talk-text > div > a:first-child {
+  font-weight: 700;
+}
