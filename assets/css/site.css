@@ -403,12 +403,12 @@ html body .archive-link {
   margin-left: 0.5rem;
 }
 
-html body .media-list .talk-text > div > a:first-child {
+html body .media-list .item-title {
   display: inline-block;
 }
 
 /* Speaking: session titles in bold. */
-html body .talk-list .talk-text > div > a:first-child {
+html body .talk-list .item-title {
   font-weight: 700;
 }
 
