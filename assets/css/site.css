@@ -410,3 +410,14 @@ html body .post .cv-plain ul ul {
 html body .media-list li {
   line-height: 1.75;
 }
+
+/* 2.5.8: keep each link a single box so wrapped titles and archive links do not crowd each other. */
+html body .archive-link {
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 0.5rem;
+}
+
+html body .media-list .talk-text > div > a:first-child {
+  display: inline-block;
+}
