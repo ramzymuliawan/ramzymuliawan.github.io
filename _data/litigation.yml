@@ -10,16 +10,19 @@
 #   lang      optional, for an Indonesian-language title
 
 strategic:
-  - date: "July 2026"
+  - date: "August 2026"
     forum: Supreme Court of Indonesia
+    case: 40 P/HUM/2026
     title: Judicial review of Government Regulation No. 71/2019 on the Operation of Electronic Systems and Transactions
     role: I am one of the counsel in the Advocacy Team for the Democratization of Indonesia's Digital Space (TAKDIR), acting for the Alliance of Independent Journalists (AJI), SAFEnet, Magdalene.co, and Project Multatuli.
     about: The petition challenges Article 95, which mandates the government to cut access to electronic content, and Article 96(a) and (b), which allow it for content that "violates the law" or "disturbs the public and public order". It argues that these provisions conflict with the Electronic Information and Transactions Law, the Press Law, the Human Rights Law, and Indonesia's ratification of the ICCPR.
     status_label: Status
-    outcome: Awaiting decision.
+    outcome: Registered at the Supreme Court on 20 August 2026; awaiting decision.
     links:
       - label: Petition (PDF, in Indonesian)
         url: /assets/pdf/2026-11-22_TAKDIR_2026_Permohonan-Uji-Materiil-PP-71-2019.pdf
+      - label: LBH Pers on the registration
+        url: https://lbhpers.org/uji-materi-pp-71-2019-oleh-tim-advokasi-untuk-demokratisasi-ruang-digital-indonesia-takdir-telah-teregistrasi-di-mahkamah-agung/
 
   - date: "July 2025 – January 2026"
     forum: Constitutional Court of Indonesia
@@ -54,16 +57,48 @@ support:
       - label: Decision 33/PUU-XXIV/2026 (PDF)
         url: https://www.mkri.id/public/content/persidangan/putusan/putusan_mkri_14689_1784794122.pdf
 
-  - date: "September 2025 onwards"
-    forum: Central and South Jakarta District Courts
-    title: Amicus curiae for political activists prosecuted after the August–September 2025 protests
-    role: I worked on SAFEnet's amicus curiae briefs in criminal trials of activists charged over their social media posts after the protests.
-    about: The briefs argue that the posts were protected expression under the Constitution and the ICCPR, that the charges do not meet the elements of the offences under the revised Electronic Information and Transactions Law, and that criminal law is being used as a first resort to silence critics. They include the cases of Wawan Hermawan (Central Jakarta District Court, case 690/Pid.Sus/2025/PN Jkt.Pst) and Laras Faizati (South Jakarta District Court).
+  - date: "April 2026"
+    forum: Rote Ndao District Court
+    title: Amicus curiae for Erasmus Frans Mandato
+    role: I worked on SAFEnet's amicus curiae brief, submitted to the court in April 2026.
+    about: A Rote Island resident was charged under Article 28(3) with Article 45A(3) of the Electronic Information and Transactions Law after a Facebook post criticising the closure of public roads to Oemau Beach near a luxury hotel, whose operator reported him to the police. The brief argued that there was no causal link between his post and the alleged unrest, that "false news" must be read narrowly so that opinion and criticism are not caught, and that the case was a SLAPP brought by a company against a citizen.
+    status_label: Outcome
+    outcome: The court acquitted him on 21 April 2026. The Supreme Court rejected the prosecution's cassation appeal on 29 October 2026 (case 12127 K/PID.SUS/2026).
     links:
-      - label: Amicus curiae brief, Wawan Hermawan (PDF, in Indonesian)
+      - label: Floresa on the brief
+        url: https://floresa.co/reportase/mendalam/85652/2026/04/08/safenet-sebut-kriminalisasi-warga-rote-karena-kritik-via-facebook-ancam-kebebasan-berekspresi
+        archive: https://web.archive.org/web/20260409022547/https://floresa.co/reportase/mendalam/85652/2026/04/08/safenet-sebut-kriminalisasi-warga-rote-karena-kritik-via-facebook-ancam-kebebasan-berekspresi
+      - label: Nemberala News on the Supreme Court decision
+        url: https://nemberalanews.com/mahkamah-agung-tolak-kasasi-jpu-aktivis-lingkungan-erasmus-frans-mandato-bebas-murni/
+
+  - date: "January 2026"
+    forum: Central Jakarta District Court
+    case: 690/Pid.Sus/2025/PN Jkt.Pst
+    title: Amicus curiae for Wawan Hermawan
+    role: I worked on SAFEnet's amicus curiae brief.
+    about: A student activist arrested after the August–September 2025 protests was charged over posts on a social media account that the prosecution said encouraged people to join violent actions. The brief argued that his posts were protected expression under the Constitution and the ICCPR, that the charges did not meet the elements of the offences under the revised Electronic Information and Transactions Law, and that criminal law was being used as a first resort to silence critics.
+    status_label: Outcome
+    outcome: On 7 April 2026 the court sentenced him to seven months in prison, less time already served, under Article 28(3) with Article 45A(3) of the Electronic Information and Transactions Law, or Article 160 of the Criminal Code.
+    links:
+      - label: Amicus curiae brief (PDF, in Indonesian)
         url: https://drive.proton.me/urls/T28AP8QZ6G#gMY0v4o7ljJ6
-      - label: SAFEnet on the Wawan Hermawan brief
+      - label: SAFEnet on the brief
         url: https://safenet.or.id/amicus-curiae-untuk-kasus-wawan-hermawan/
-      - label: Tempo report on the amicus curiae briefs for Laras Faizati
+      - label: Amnesty International Indonesia on the verdict
+        url: https://www.amnesty.id/kabar-terbaru/siaran-pers/vonis-peradilan-sesat-wawan-hermawan/04/2026/
+        archive: https://web.archive.org/web/20260407215810/https://www.amnesty.id/kabar-terbaru/siaran-pers/vonis-peradilan-sesat-wawan-hermawan/04/2026/
+
+  - date: "December 2025"
+    forum: South Jakarta District Court
+    title: Amicus curiae for Laras Faizati
+    role: I was part of the team that wrote SAFEnet's amicus curiae brief, which Rama, SAFEnet's representative, presented to the court on 11 December 2025.
+    about: Laras Faizati was charged with incitement over social media posts written after the death of Affan Kurniawan during the August 2025 protests. Four amici curiae, including SAFEnet, asked the court to read the digital evidence as a whole and to protect citizens' freedom of expression.
+    status_label: Outcome
+    outcome: On 15 January 2026 the court found her guilty and sentenced her to six months in prison, suspended on condition that she commit no offence for one year.
+    links:
+      - label: Tempo on the amicus curiae briefs
         url: https://www.tempo.co/hukum/4-amicus-curiae-untuk-laras-faizati-tuntut-pembebasan-2098550
         archive: https://web.archive.org/web/20251213182935/https://www.tempo.co/hukum/4-amicus-curiae-untuk-laras-faizati-tuntut-pembebasan-2098550
+      - label: BBC News Indonesia on the verdict
+        url: https://www.bbc.com/indonesia/articles/cx2y9l9pj84o
+        archive: https://web.archive.org/web/20260115062152/https://www.bbc.com/indonesia/articles/cx2y9l9pj84o
