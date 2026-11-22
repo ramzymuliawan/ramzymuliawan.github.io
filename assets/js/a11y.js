@@ -20,6 +20,15 @@
     }
   }
 
+  // Safari with VoiceOver stops announcing lists that have no markers; role="list" keeps them announced.
+  function keepListSemantics() {
+    document.querySelectorAll(".post ul, .post ol").forEach(function (list) {
+      list.setAttribute("role", "list");
+    });
+  }
+  document.addEventListener("DOMContentLoaded", keepListSemantics);
+  if (document.readyState !== "loading") keepListSemantics();
+
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
   } else {
