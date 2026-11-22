@@ -1,0 +1,32 @@
+---
+layout: page
+permalink: /media/
+title: In the Media
+description: News coverage, quotes, and writing for the press.
+nav: true
+nav_order: 2
+---
+
+{% assign sections = "coverage|Coverage and quotes,writing|Written for the press,talks|Talks" | split: "," %}
+
+{% for section in sections %}
+{% assign parts = section | split: "|" %}
+{% assign items = site.data.media[parts[0]] %}
+{% if items and items.size > 0 %}
+
+<h2 class="mt-4">{{ parts[1] }}</h2>
+
+<ul class="list-unstyled media-list">
+{% for item in items %}
+  <li class="mb-3">
+    <div class="small text-muted">
+      {% if item.date %}{{ item.date }} · {% endif %}{{ item.outlet }}{% if item.lang == "id" %} · in Indonesian{% endif %}
+    </div>
+    <div><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></div>
+    {% if item.note %}<div class="small">{{ item.note }}</div>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+{% endif %}
+{% endfor %}

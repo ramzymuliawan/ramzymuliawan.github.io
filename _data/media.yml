@@ -1,0 +1,105 @@
+# Entries for the "In the Media" page (_pages/media.md).
+# Add new items at the top of each list. Fields: date (as it should display, e.g. "14 April 2026"),
+# outlet, title, url, note (one line, optional), lang (optional, e.g. id for Indonesian).
+
+coverage:
+  - date: "11 November 2026"
+    outlet: Diff (Wikimedia Foundation)
+    title: When does difficult behaviour become a UCoC concern?
+    url: https://diff.wikimedia.org/2026/11/11/when-does-difficult-behaviour-become-a-ucoc-concern/
+    note: Reports on a session Ramzy led on applying the Universal Code of Conduct, including reporting pathways.
+
+  - date: "14 April 2026"
+    outlet: Seasia
+    title: Indonesia sets 4-hour deadline for platforms to remove hate speech, disinformation
+    url: https://seasia.co/short/indonesia-sets-4-hour-deadline-for-platforms-to-remove-hate-speech-disinformation
+    note: Quoted as SAFEnet legal adviser on the undefined terms in Ministerial Decree 127/2026.
+
+  - date: "April 2026"
+    outlet: Kompas
+    title: "AJI: Revoke Ministerial Decree No. 127/2026, Unblock Magdalene Content"
+    url: https://www.kompas.id/artikel/en-aji-cabut-sk-menteri-komdigi-no-1272026-buka-blokir-konten-magdalene
+    note: Quoted on how the decree and PP 71/2019 widen state power over platforms and user content.
+
+  - date: "April 2026"
+    outlet: Kompas
+    title: Social Media Must Block Disinformation Content Within 4 Hours
+    url: https://www.kompas.id/artikel/en-medsos-wajib-penuhi-perintah-pemerintah-ri-untuk-blokir-konten-disinformasi-paling-lambat-4-jam
+    note: Quoted on Ministerial Decree 127/2026 as part of the implementation of PP 71/2019.
+
+  - date: "19 February 2026"
+    outlet: The Conversation Indonesia
+    title: "Koalisi Open Indonesia: Upaya kolaboratif membuka akses pengetahuan untuk semua"
+    url: https://theconversation.com/koalisi-open-indonesia-upaya-kolaboratif-membuka-akses-pengetahuan-untuk-semua-276064
+    note: Quoted on the kick-off of the Open Indonesia coalition.
+    lang: id
+
+  - date: "25 March 2021"
+    outlet: The Jakarta Post
+    title: "Passion for information: Wikipedia contributors share what goes on behind the scenes"
+    url: https://www.thejakartapost.com/life/2021/03/25/passion-for-information-wikipedia-contributors-share-what-goes-on-behind-the-scenes.html
+    note: Profiles Ramzy among Indonesian Wikipedia contributors and administrators.
+
+  - date: "11 November 2019"
+    outlet: Rising Voices
+    title: Meet Ramzy Muliawan, the host of the @AsiaLangsOnline Twitter account for Nov 12 – 18, 2019
+    url: https://rising.globalvoices.org/blog/2019/11/11/meet-ramzy-muliawan-the-host-of-the-asialangsonline-twitter-account-for-nov-12-18-2019/
+    note: Interview on Minangkabau Wikipedia and writing in the Minangkabau language online.
+
+  - date: "23 January 2019"
+    outlet: The Jakarta Post
+    title: Unsold tickets lead airlines to cancel 433 flights
+    url: https://www.thejakartapost.com/news/2019/01/23/unsold-tickets-lead-airlines-to-cancel-433-flights.html
+    note: Illustrated with a photo Ramzy published on Wikimedia Commons.
+
+  - date: "2017"
+    outlet: Kementerian Agama
+    title: 10 Siswa Madrasah Aliyah Terpilih Sebagai Peserta Parlemen Remaja 2017
+    url: https://kemenag.go.id/read/10-siswa-madrasah-aliyah-terpilih-sebagai-peserta-parlemen-remaja-2017-oz8d0
+    note: Names Ramzy (MAN 2 Pekanbaru) among students selected for the 2017 Youth Parliament.
+    lang: id
+
+writing:
+  - date: "1 March 2025"
+    outlet: Global Voices
+    title: "Q&A: Meet Rafiki and Rafif, Betawi language activists"
+    url: https://globalvoices.org/2025/03/01/qa-meet-rafiki-and-rafif-betawi-language-activists/
+
+  - date: "28 January 2025"
+    outlet: Global Voices Advox
+    title: Indonesian court acquits worker over defamation charges filed by prominent entrepreneur
+    url: https://globalvoices.org/2025/01/28/indonesian-court-acquits-worker-over-defamation-charges-filed-by-prominent-entrepreneur/
+
+  - date: "19 January 2021"
+    outlet: Wikimedia Indonesia
+    title: Bergotong Royong di Bulan Asia Wikipedia
+    url: https://wikimedia.or.id/2021/01/19/bergotong-royong-di-bulan-asia-wikipedia/
+    lang: id
+
+  - date: "2021–2024"
+    outlet: Diff (Wikimedia Foundation)
+    title: Posts on the Universal Code of Conduct, the ESEAP region, and wiki advocacy
+    url: https://diff.wikimedia.org/author/ramzy-muliawan/
+
+  - date: "10 May 2017"
+    outlet: The Jakarta Post
+    title: "'13 Reasons Why' and the inescapable darkness of teen angst"
+    url: https://www.thejakartapost.com/life/2017/05/12/13-reasons-why-and-the-inescapable-darkness-of-teen-angst.html
+
+  - date: "18 August 2015"
+    outlet: Pandit Football Indonesia
+    title: Menjadi Indonesia di Lapangan Sepakbola
+    url: https://panditfootball.com/pandit-sharing/183730/PSH/150818/piala-asia
+    lang: id
+
+  - date: "3 July 2015"
+    outlet: Pandit Football Indonesia
+    title: Matinya Lapangan Kami
+    url: https://panditfootball.com/pandit-sharing/180870/PFB/150703/tarkam
+    lang: id
+
+talks:
+  - outlet: TEDx
+    title: Debat Kusir Manusia Kuda
+    url: https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda
+    lang: id
