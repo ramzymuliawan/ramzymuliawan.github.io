@@ -392,6 +392,26 @@ talks:
     lang: id
     embed: https://www.youtube-nocookie.com/embed/xS1DWbDz_CI
 
+  - date: "16 May 2026"
+    category: wikimedia
+    outlet: Wikimedia ESEAP Conference 2026 (Kaohsiung, Taiwan)
+    title: "Legal realities and editorial freedom: understanding the challenges of editing in the current environment"
+    url: https://wikimedia.eventyay.com/eseap/eseapcon/talk/9YDQCT/
+    archive: https://web.archive.org/web/20260504203548/https://wikimedia.eventyay.com/eseap/eseapcon/talk/9YDQCT/
+    note: Workshop with Arik Karani (Wikimedia Foundation) on staying safe while editing, and on how legal frameworks in different countries affect Wikimedia project content.
+
+  - date: "16 May 2026"
+    category: wikimedia
+    outlet: Wikimedia ESEAP Conference 2026 (Kaohsiung, Taiwan)
+    title: "The UCoC Ecosystem Five Years On: Insights, Challenges, and Opportunities for ESEAP"
+    url: https://wikimedia.eventyay.com/eseap/eseapcon/talk/YKMM9C/
+    archive: https://web.archive.org/web/20260505103034/https://wikimedia.eventyay.com/eseap/eseapcon/talk/YKMM9C/
+    note: My session on the Universal Code of Conduct and its Enforcement Guidelines five years after ratification, and on how ESEAP communities take part. Recording (43 min).
+    links:
+      - label: Recording on Wikimedia Commons
+        url: https://commons.wikimedia.org/wiki/File:UCoC_Ecosystem_Five_Years_On_%E2%80%93_Insights,_Challenges,_and_Opportunities_for_ESEAP_%E2%80%93_Wikimedia_ESEAP_Conference_2026_in_Kaohsiung,_Taiwan.webm
+    embed: https://commons.wikimedia.org/wiki/File:UCoC_Ecosystem_Five_Years_On_%E2%80%93_Insights,_Challenges,_and_Opportunities_for_ESEAP_%E2%80%93_Wikimedia_ESEAP_Conference_2026_in_Kaohsiung,_Taiwan.webm?embedplayer=yes
+
   - date: "16 March 2026"
     category: digital-rights
     outlet: Students For Liberty Indonesia and Garis Literasi, Universitas Sumatera Utara (online)
@@ -469,6 +489,19 @@ talks:
     note: Panel recording (1 h 10 min).
     embed: https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm?embedplayer=yes
 
+  - date: "20 May 2023"
+    category: wikimedia
+    outlet: WikiNusantara 2023 (Banjarmasin)
+    title: "Selayang Pandang Arah Strategis Gerakan Wikimedia: Kolaborasi WMF dan Komunitas"
+    url: https://meta.wikimedia.org/wiki/WikiNusantara_2023/Acara/Selayang_Pandang_Arah_Strategis_Gerakan_Wikimedia:_Kolaborasi_WMF_dan_Komunitas
+    archive: https://web.archive.org/web/20230526233338/https://meta.wikimedia.org/wiki/WikiNusantara_2023/Acara/Selayang_Pandang_Arah_Strategis_Gerakan_Wikimedia:_Kolaborasi_WMF_dan_Komunitas
+    note: With Sakti Pramudya (Wikimedia Foundation), on the Movement Charter, hubs, and how communities in Indonesia can take part.
+    lang: id
+    links:
+      - label: Slides (Google Slides)
+        url: https://docs.google.com/presentation/d/1o3E0kaqvKbAFzPcvN5SscqIwKSMsx0FhUt6PHqBcal0/edit
+    cover: /assets/img/talks/2023-05-20_WikiNusantara-2023_cover.jpg
+
   - date: "June 2022"
     category: wikimedia
     outlet: RightsCon 2022
@@ -476,6 +509,20 @@ talks:
     url: https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm
     note: My lightning talk (5 min).
     embed: https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm?embedplayer=yes
+
+  - date: "5 June 2022"
+    category: wikimedia
+    outlet: WikiNusantara 2022 (Padang)
+    title: Strategi Gerakan untuk Komunitas Wikimedia di Indonesia
+    url: https://meta.wikimedia.org/wiki/WikiNusantara_2022/Acara/Strategi_Gerakan_untuk_Komunitas_Wikimedia_di_Indonesia
+    archive: https://web.archive.org/web/20240810050000/https://meta.wikimedia.org/wiki/WikiNusantara_2022/Acara/Strategi_Gerakan_untuk_Komunitas_Wikimedia_di_Indonesia
+    note: On where Movement Strategy implementation stood (the Movement Charter, hubs, the Universal Code of Conduct) and how communities in Indonesia can take part.
+    lang: id
+    links:
+      - label: Slides (PDF, Wikimedia Commons)
+        url: https://upload.wikimedia.org/wikipedia/commons/b/bd/Strategi_Gerakan_untuk_Komunitas_Wikimedia_di_Indonesia.pdf
+        archive: https://web.archive.org/web/20241201212130/https://commons.wikimedia.org/wiki/File:Strategi_Gerakan_untuk_Komunitas_Wikimedia_di_Indonesia.pdf
+    cover: /assets/img/talks/2022-06-05_WikiNusantara-2022_cover.jpg
 
   - date: "7 February 2022"
     category: wikimedia

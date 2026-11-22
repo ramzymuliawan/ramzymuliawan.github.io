@@ -19,6 +19,7 @@ module.exports = {
     "talk-text",
     "talk-list",
     "item-title",
+    "slide-cover",
     "collapse",
     "collapsing",
     "show",

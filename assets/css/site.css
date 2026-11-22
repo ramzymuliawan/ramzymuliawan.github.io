@@ -430,3 +430,22 @@ html body .talk-list .item-title {
 html body .media-list .talk-text .small a {
   display: inline-block;
 }
+
+/* Speaking: first slide of the deck, in the video column, when there is no recording. */
+html body .slide-cover {
+  margin: 0.5rem 0 0.25rem;
+}
+
+html body .slide-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--site-line);
+  border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  html body .media-list li.talk-row .slide-cover {
+    margin: 0;
+  }
+}

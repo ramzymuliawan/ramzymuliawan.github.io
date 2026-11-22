@@ -54,6 +54,10 @@
             allowfullscreen
           ></iframe>
         </div>
+      {% elsif include.embed and item.cover %}
+        <figure class="slide-cover">
+          <img src="{{ item.cover | relative_url }}" alt="First slide of the deck: {{ item.title | escape }}" loading="lazy">
+        </figure>
       {% endif %}
     </li>
   {% endfor %}
