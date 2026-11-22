@@ -51,47 +51,41 @@ Universitas Andalas · Padang · Sep 2019 – Jan 2020
 
 ## Volunteer and service
 
-### Working Group Member
+### Wikimedia
 
-Southeast Asia Freedom of Expression Network (SAFEnet) · May 2025 – Dec 2025
+#### Wikimedia Indonesia
 
-- I represented SAFEnet in the Ministry of Communications and Digital Affairs' AI Roadmap Development Task Force, which formulated the Draft Presidential Regulation on National AI Roadmap and the Draft Presidential Regulation on AI Ethics.
+- **Member, Board of Trustees (Dewan Pengawas)** · Feb 2025 – May 2025
+- **Contributing Member** · Padang · Jan 2017 – present
 
-### Member, Board of Trustees (Dewan Pengawas)
+#### Wikimania
 
-Wikimedia Indonesia · Feb 2025 – May 2025
+- **Scholarship Subcommittee (2023); Scholarship Review Working Group (2024)** · 2023 – 2024
 
-### Working Group Member
+#### Wikipedia, the free encyclopedia
 
-Southeast Asia Freedom of Expression Network (SAFEnet) · May 2024 – Dec 2024
+- **Editor; administrator of Indonesian Wikipedia (since 2013); co-founder of Minangkabau Wikipedia (2012)** · Remote · Oct 2007 – present
+    - Projects and collaborations I have been part of: WikiDialek 1.0 (2019–2020), ESEAP Hub, Wikitongues, Wikimedia Language Diversity, and Wikipedia Asian Month.
 
-- I represented SAFEnet in the Policy Network on Artificial Intelligence's Multistakeholder Working Group (PNAI-MWG), an initiative of the Internet Governance Forum Secretariat.
+### Digital rights
 
-### Member, Internet Governance and Access Working Group
+#### Southeast Asia Freedom of Expression Network (SAFEnet)
 
-Southeast Asia Freedom of Expression Network (SAFEnet) · Jakarta · Aug 2023 – present
+- **Working Group Member** · May 2025 – Dec 2025
+    - I represented SAFEnet in the Ministry of Communications and Digital Affairs' AI Roadmap Development Task Force, which formulated the Draft Presidential Regulation on National AI Roadmap and the Draft Presidential Regulation on AI Ethics.
+- **Working Group Member** · May 2024 – Dec 2024
+    - I represented SAFEnet in the Policy Network on Artificial Intelligence's Multistakeholder Working Group (PNAI-MWG), an initiative of the Internet Governance Forum Secretariat.
+- **Member, Internet Governance and Access Working Group** · Jakarta · Aug 2023 – present
 
-### Scholarship Subcommittee (2023); Scholarship Review Working Group (2024)
+### Other
 
-Wikimania · 2023 – 2024
+#### The House of Representatives, Republic of Indonesia (DPR RI)
 
-### Member of the Youth Parliament
+- **Member of the Youth Parliament** · Sep 2017 – Aug 2018
 
-The House of Representatives, Republic of Indonesia (DPR RI) · Sep 2017 – Aug 2018
+#### U.S. Department of State
 
-### Contributing Member
-
-Wikimedia Indonesia · Padang · Jan 2017 – present
-
-### Kennedy-Lugar Youth Exchange and Study (YES) Scholar
-
-U.S. Department of State · Indianapolis, Indiana · Aug 2016 – Jun 2017
-
-### Editor; administrator of Indonesian Wikipedia (since 2013); co-founder of Minangkabau Wikipedia (2012)
-
-Wikipedia, the free encyclopedia · Remote · Oct 2007 – present
-
-- Projects and collaborations I have been part of: WikiDialek 1.0 (2019–2020), ESEAP Hub, Wikitongues, Wikimedia Language Diversity, and Wikipedia Asian Month.
+- **Kennedy-Lugar Youth Exchange and Study (YES) Scholar** · Indianapolis, Indiana · Aug 2016 – Jun 2017
 
 ## Education
 
@@ -118,7 +112,7 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 
 ## Publications
 
-- Muliawan, M.R. (2026). [*Hukum Persaingan Usaha sebagai Jalan Alternatif Pertanggungjawaban Perusahaan Teknologi Gergasi (Big Tech) di Indonesia*]{lang=id}. Memperluas Partisipasi, Melawan Represi: Kumpulan Tulisan Konferensi Nasional Kebebasan Sipil 2025. Pusat Studi Hukum dan Kebijakan Indonesia. Developed from my Monash University Indonesia capstone research paper (2025).
+- Muliawan, M.R. (2026). [[Hukum Persaingan Usaha sebagai Jalan Alternatif Pertanggungjawaban Perusahaan Teknologi Gergasi (Big Tech) di Indonesia](https://ramzymuliawan.github.io/assets/pdf/2026-11-22_Muliawan_2026_Hukum-Persaingan-Usaha-Big-Tech_PSHK.pdf)]{lang=id}. In M.N. Ramadhan (ed.), Memperluas Partisipasi, Melawan Represi: Kumpulan Tulisan Konferensi Nasional Kebebasan Sipil 2025, pp. 397-420. Jakarta: Pusat Studi Hukum dan Kebijakan Indonesia. ISBN 978-602-97661-5-8. Developed from my Monash University Indonesia capstone research paper (2025).
 - Muliawan, M.R., Salim, I., Wibisana, A. (2025). [[Laporan Riset Aksesibilitas Situs Web Layanan Publik Indonesia untuk Disabilitas Netra](https://pustaka.taratsa.id/download/1050/pdf/1050.pdf)]{lang=id}. Southeast Asia Freedom of Expression Network (SAFEnet), Denpasar.
 - Muliawan, M.R. (2022). [*Implementasi Tanggung Jawab Sosial dan Lingkungan (TJSL) dalam the OECD Guidelines for Multinational Enterprises oleh Korporasi Transnasional di Indonesia (Studi atas Kebijakan Sosial, HAM, dan Lingkungan Hidup PT. Freeport Indonesia)*]{lang=id}. Universitas Andalas (undergraduate thesis). English: Implementation of Social and Environmental Responsibility under the OECD Guidelines for Multinational Enterprises by Transnational Corporations in Indonesia (A Study of PT. Freeport Indonesia's Social, Human Rights, and Environmental Policies).
 - Elvardi, J., Pratama, A.R.P., Muliawan, M.R. (2021). [The Urgency for Ratification of the 1970 ILO Minimum Wage Fixing Convention in the Time of Fourth Industrial Revolution](https://doi.org/10.30996/jhbbc.v4i2.5394). Jurnal Hukum Bisnis Bonum Commune 4, no. 2 (Aug), 226-234.
@@ -126,21 +120,26 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 
 ## Talks
 
-- EduWiki Hub Workshop: [Speaker card on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ramzy_Muliawan_EduWiki_Hub_Workshop.png) (7 October 2026)
-- Global Voices Summit 2024, Nepal: [Presentation with Subhashish Panigrahi](https://commons.wikimedia.org/wiki/File:Subhashish_and_Ramzy%27s_Presentation.jpg) (6 December 2024)
-- Wikimania 2024: [Supporting minority languages and Wikimedia's global community](https://commons.wikimedia.org/wiki/File:Supporting_minority_languages_and_Wikimedia%27s_global_community_-_Ramzy_Muliawan_-_01.jpg) (August 2024)
+### Wikimedia
+
+- EduWiki x VSN Workshop (online): [Creating Safer and More Inclusive Wikimedia Spaces: Understanding and Applying the Universal Code of Conduct](https://meta.wikimedia.org/wiki/Event:EduWiki_Workshop_October_2026) (15 October 2026)
+- Global Voices Summit 2024, Nepal: [How to make the Internet more multilingual with Lingua Libre](https://gv2024.sched.com/event/1r0rp/how-to-make-the-internet-more-multilingual-with-lingualibre) (6 December 2024)
+- Wikimania 2024: [Supporting minority languages and Wikimedia's global community](https://wikimania.wikimedia.org/wiki/2024:Program/Supporting_minority_languages_and_Wikimedia%27s_global_community) (9 August 2024)
 - Wikimania 2023: [Passion and Perspectives, Policy Challenges and Opportunities for the Wikimedia Communities in the ESEAP](https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm) (17 August 2023)
 - RightsCon 2022: [When you can't see your city (online): Why you don't want a country without Freedom of Panorama](https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm) (June 2022)
 - Wikimedia Italia: [[Indonesia nuova tappa dei viaggi in pausa pranzo](https://www.wikimedia.it/news/indonesia-nuova-tappa-dei-viaggi-in-pausa-pranzo/)]{lang=it} (7 February 2022)
 - Wikimedia Foundation: [Universal Code of Conduct Roundtable](https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm) (16 August 2021)
-- Arctic Knot Conference: [The case for multi-project ArbComs in language and cultural groups](https://commons.wikimedia.org/wiki/File:Arctic_Knot_Conference_2021_-_xwikiarb_(Ramzy_Muliawan).pdf) (2021)
-- TEDx: [[Debat Kusir Manusia Kuda](https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda)]{lang=id}
+- Arctic Knot Conference 2021: [The case for multi-project ArbComs in language and cultural groups](https://www.youtube.com/watch?v=9xbd4fJfZ-k) (June 2021)
+
+### Other
+
+- TEDxBatangArau: [[Debat Kusir Manusia Kuda](https://www.ted.com/talks/muhammad_ramzy_muliawan_debat_kusir_manusia_kuda)]{lang=id} (2019)
 
 ## Certificates
 
 - Foundations of Intercultural Learning and Global Competence, AFS Intercultural Programs, New York City (2023)
-- [Ujian Profesi Advokat]{lang=id}, Indonesian Advocates Association (PERADI), Jakarta (2023)
-- [Pendidikan Khusus Profesi Advokat]{lang=id}, Indonesian Advocates Association (PERADI), Jakarta (2023)
+- [Ujian Profesi Advokat]{lang=id}, Indonesian Advocates Association (PERADI), Pekanbaru (2023)
+- [Pendidikan Khusus Profesi Advokat]{lang=id}, Indonesian Advocates Association (PERADI), Pekanbaru (2023)
 
 ## Awards
 
@@ -149,13 +148,6 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 - Novice Semi-Finalist, Java Overland English Debating competition (JOVED), Bandung (2020)
 - Top 30 Oralist, Indonesian National Rounds of the Philip C. Jessup International Law Moot Court Competition, Indonesia Society for International Law, Jakarta (2020)
 - 6th Breaking National Adjudicator, National University Debating Championship, Indonesian Ministry of Culture and Education, Surabaya (2019)
-
-## Languages
-
-- Malay: Native
-- Indonesian: Native
-- Minangkabau: Native
-- English: Professional
 
 ## Affiliations
 
