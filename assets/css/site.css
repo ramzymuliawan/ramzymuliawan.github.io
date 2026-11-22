@@ -20,7 +20,7 @@
   font-display: swap;
 }
 
-:root {
+html:root {
   --site-font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --site-accent: #0f766e;
   --site-accent-soft: #e6f6f3;
@@ -65,41 +65,41 @@ h6,
 }
 
 /* The theme sets this block in monospace; keep it in the site font. */
-.profile .more-info {
+html body .profile .more-info {
   font-family: var(--site-font);
 }
 
-a {
+html body a {
   color: var(--site-accent);
 }
 
-a:hover {
+html body a:hover {
   color: #0d9488;
 }
 
-.navbar {
+html body .navbar {
   background-color: #ffffff;
   border-bottom: 1px solid var(--site-line);
   box-shadow: none;
 }
 
-footer,
-footer.fixed-bottom {
+html body footer,
+html body footer.fixed-bottom {
   background-color: #ffffff;
   color: var(--site-muted);
   border-top: 1px solid var(--site-line);
 }
 
-footer a {
+html body footer a {
   color: var(--site-accent);
 }
 
-.publications .abbr .badge,
-.badge {
+html body .publications .abbr .badge,
+html body .badge {
   background-color: var(--site-accent-soft);
   color: var(--site-accent);
 }
 
-.card {
+html body .card {
   border-color: var(--site-line);
 }
