@@ -15,6 +15,8 @@ module.exports = {
     "cv-download-label",
     "cv-ext",
     "archive-link",
+    "talk-row",
+    "talk-text",
     "collapse",
     "collapsing",
     "show",

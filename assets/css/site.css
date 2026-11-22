@@ -390,3 +390,18 @@ html body .post .cv-plain ul {
 html body .post .cv-plain ul ul {
   list-style: circle;
 }
+
+/* Speaking: details on the left, video on the right; stacked on narrow screens. */
+@media (min-width: 768px) {
+  html body .media-list li.talk-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  html body .media-list li.talk-row .video-embed {
+    margin: 0;
+    max-width: none;
+  }
+}

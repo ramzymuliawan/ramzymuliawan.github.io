@@ -4,42 +4,46 @@
 {%- endcomment -%}
 <ul class="list-unstyled media-list">
   {% for item in include.items %}
-    <li class="mb-4">
-      <div class="small text-muted">
-        {% if item.date %}{{ item.date }} · {% endif -%}
-        {{- item.outlet -}}
-        {%- if item.lang == 'id' %} · in Indonesian{% elsif item.lang == 'it' %} · in Italian{% endif %}
-      </div>
-      <div>
-        <a
-          href="{{ item.url }}"
-          {% if item.lang %}
-            lang="{{ item.lang }}"
-          {% endif %}
-        >
-          {{- item.title -}}
-        </a>
-        {% if item.archive -%}
-          <a class="archive-link" href="{{ item.archive }}"
-            >(Internet Archive version{% if item.archive_note %}, {{ item.archive_note }}{% endif %})</a
-          >
-        {%- endif %}
-      </div>
-      {% if item.note %}
-        <div class="small">{{ item.note }}</div>
-      {% endif %}
-      {% if item.links %}
-        <div class="small">
-          {% for l in item.links -%}
-            <a href="{{ l.url }}">{{ l.label }}</a>
-            {%- if l.archive %}
-              <a class="archive-link" href="{{ l.archive }}">(Internet Archive version)</a>
-            {%- endif -%}
-            {%- unless forloop.last %} · {% endunless -%}
-          {%- endfor %}
+    {% assign has_video = false %}
+    {% if include.embed and item.embed %}{% assign has_video = true %}{% endif %}
+    <li class="mb-4{% if has_video %} talk-row{% endif %}">
+      <div class="talk-text">
+        <div class="small text-muted">
+          {% if item.date %}{{ item.date }} · {% endif -%}
+          {{- item.outlet -}}
+          {%- if item.lang == 'id' %} · in Indonesian{% elsif item.lang == 'it' %} · in Italian{% endif %}
         </div>
-      {% endif %}
-      {% if include.embed and item.embed %}
+        <div>
+          <a
+            href="{{ item.url }}"
+            {% if item.lang %}
+              lang="{{ item.lang }}"
+            {% endif %}
+          >
+            {{- item.title -}}
+          </a>
+          {% if item.archive -%}
+            <a class="archive-link" href="{{ item.archive }}"
+              >(Internet Archive version{% if item.archive_note %}, {{ item.archive_note }}{% endif %})</a
+            >
+          {%- endif %}
+        </div>
+        {% if item.note %}
+          <div class="small">{{ item.note }}</div>
+        {% endif %}
+        {% if item.links %}
+          <div class="small">
+            {% for l in item.links -%}
+              <a href="{{ l.url }}">{{ l.label }}</a>
+              {%- if l.archive %}
+                <a class="archive-link" href="{{ l.archive }}">(Internet Archive version)</a>
+              {%- endif -%}
+              {%- unless forloop.last %} · {% endunless -%}
+            {%- endfor %}
+          </div>
+        {% endif %}
+      </div>
+      {% if has_video %}
         <div class="video-embed">
           <iframe
             src="{{ item.embed }}"
