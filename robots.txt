@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ramzymuliawan.github.io/sitemap.xml
