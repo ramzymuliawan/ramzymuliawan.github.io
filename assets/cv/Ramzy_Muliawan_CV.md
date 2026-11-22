@@ -115,21 +115,21 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 - Muliawan, M.R. (2026). [[Hukum Persaingan Usaha sebagai Jalan Alternatif Pertanggungjawaban Perusahaan Teknologi Gergasi (Big Tech) di Indonesia](https://ramzymuliawan.github.io/assets/pdf/2026-11-22_Muliawan_2026_Hukum-Persaingan-Usaha-Big-Tech_PSHK.pdf)]{lang=id}. In M.N. Ramadhan (ed.), Memperluas Partisipasi, Melawan Represi: Kumpulan Tulisan Konferensi Nasional Kebebasan Sipil 2025, pp. 397-420. Jakarta: Pusat Studi Hukum dan Kebijakan Indonesia. ISBN 978-602-97661-5-8. Developed from my Monash University Indonesia capstone research paper (2025).
 - Muliawan, M.R., Salim, I., Wibisana, A. (2025). [[Laporan Riset Aksesibilitas Situs Web Layanan Publik Indonesia untuk Disabilitas Netra](https://pustaka.taratsa.id/download/1050/pdf/1050.pdf)]{lang=id}. Southeast Asia Freedom of Expression Network (SAFEnet), Denpasar.
 - Muliawan, M.R. (2022). [*Implementasi Tanggung Jawab Sosial dan Lingkungan (TJSL) dalam the OECD Guidelines for Multinational Enterprises oleh Korporasi Transnasional di Indonesia (Studi atas Kebijakan Sosial, HAM, dan Lingkungan Hidup PT. Freeport Indonesia)*]{lang=id}. Universitas Andalas (undergraduate thesis). English: Implementation of Social and Environmental Responsibility under the OECD Guidelines for Multinational Enterprises by Transnational Corporations in Indonesia (A Study of PT. Freeport Indonesia's Social, Human Rights, and Environmental Policies).
-- Elvardi, J., Pratama, A.R.P., Muliawan, M.R. (2021). [The Urgency for Ratification of the 1970 ILO Minimum Wage Fixing Convention in the Time of Fourth Industrial Revolution](https://doi.org/10.30996/jhbbc.v4i2.5394). Jurnal Hukum Bisnis Bonum Commune 4, no. 2 (Aug), 226-234.
+- Elvardi, J., Pratama, A.R.P., Muliawan, M.R. (2021). [The Urgency for Ratification of the 1970 ILO Minimum Wage Fixing Convention in the Time of Fourth Industrial Revolution](https://doi.org/10.30996/jhbbc.v4i2.5394) ([Internet Archive version](https://web.archive.org/web/20220527194115/https://jurnal.untag-sby.ac.id/index.php/bonumcommune/article/view/5394)). Jurnal Hukum Bisnis Bonum Commune 4, no. 2 (Aug), 226-234.
 - Pratama, A.R.P., Muliawan, M.R. (2021). [*Reformasi Administrasi dan Reorientasi Perizinan Berusaha pada Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja terhadap Perkembangan Ekonomi Nasional: Studi terhadap Sektor Energi dan Sumber Daya Mineral*]{lang=id}. ALSA Indonesia Law Review 3, no. 1 (February), 1-26.
 
 ## Talks
 
 ### Wikimedia
 
-- EduWiki x VSN Workshop (online): [Creating Safer and More Inclusive Wikimedia Spaces: Understanding and Applying the Universal Code of Conduct](https://meta.wikimedia.org/wiki/Event:EduWiki_Workshop_October_2026) (15 October 2026)
+- EduWiki x VSN Workshop (online): [Creating Safer and More Inclusive Wikimedia Spaces: Understanding and Applying the Universal Code of Conduct](https://meta.wikimedia.org/wiki/Event:EduWiki_Workshop_October_2026) ([Internet Archive version](https://web.archive.org/web/20261001235037/https://meta.wikimedia.org/wiki/Event:EduWiki_Workshop_October_2026)) (15 October 2026)
 - Global Voices Summit 2024, Nepal: [How to make the Internet more multilingual with Lingua Libre](https://gv2024.sched.com/event/1r0rp/how-to-make-the-internet-more-multilingual-with-lingualibre) (6 December 2024)
-- Wikimania 2024: [Supporting minority languages and Wikimedia's global community](https://wikimania.wikimedia.org/wiki/2024:Program/Supporting_minority_languages_and_Wikimedia%27s_global_community) (9 August 2024)
-- Wikimania 2023: [Passion and Perspectives, Policy Challenges and Opportunities for the Wikimedia Communities in the ESEAP](https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm) (17 August 2023)
+- Wikimania 2024: [Supporting minority languages and Wikimedia's global community](https://wikimania.wikimedia.org/wiki/2024:Program/Supporting_minority_languages_and_Wikimedia%27s_global_community) ([Internet Archive version](https://web.archive.org/web/20241209202245/https://wikimania.wikimedia.org/wiki/2024:Program/Supporting_minority_languages_and_Wikimedia%27s_global_community)) (9 August 2024)
+- Wikimania 2023: [Passion and Perspectives, Policy Challenges and Opportunities for the Wikimedia Communities in the ESEAP](https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm) ([Internet Archive version](https://web.archive.org/web/20241211231812/https://commons.wikimedia.org/wiki/File:Wikimania_2023_-_325_-_17_August_2023_-_Passion_and_Perspectives,_Policy_Challenges_and_Opportunities_for_the_Wikimedia_Communities_in_the_ESEAP.webm)) (17 August 2023)
 - RightsCon 2022: [When you can't see your city (online): Why you don't want a country without Freedom of Panorama](https://commons.wikimedia.org/wiki/File:When_you_can%E2%80%99t_see_your_city_(online)_-_why_you_don%E2%80%99t_want_a_country_without_Freedom_of_Panorama.webm) (June 2022)
-- Wikimedia Italia: [[Indonesia nuova tappa dei viaggi in pausa pranzo](https://www.wikimedia.it/news/indonesia-nuova-tappa-dei-viaggi-in-pausa-pranzo/)]{lang=it} (7 February 2022)
-- Wikimedia Foundation: [Universal Code of Conduct Roundtable](https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm) (16 August 2021)
-- Arctic Knot Conference 2021: [The case for multi-project ArbComs in language and cultural groups](https://www.youtube.com/watch?v=9xbd4fJfZ-k) (June 2021)
+- Wikimedia Italia: [[Indonesia nuova tappa dei viaggi in pausa pranzo](https://www.wikimedia.it/news/indonesia-nuova-tappa-dei-viaggi-in-pausa-pranzo/)]{lang=it} ([Internet Archive version](https://web.archive.org/web/20260715103445/https://www.wikimedia.it/news/indonesia-nuova-tappa-dei-viaggi-in-pausa-pranzo/)) (7 February 2022)
+- Wikimedia Foundation: [Universal Code of Conduct Roundtable](https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm) ([Internet Archive version](https://web.archive.org/web/20230711011346/https://commons.wikimedia.org/wiki/File:Universal_Code_of_Conduct_Rountable.webm)) (16 August 2021)
+- Arctic Knot Conference 2021: [The case for multi-project ArbComs in language and cultural groups](https://www.youtube.com/watch?v=9xbd4fJfZ-k) ([Internet Archive version](https://web.archive.org/web/20241224122323/https://www.youtube.com/watch?v=9xbd4fJfZ-k)) (June 2021)
 
 ### Digital rights
 
@@ -147,7 +147,7 @@ Justus-Liebig-Universität Gießen & University of Wisconsin Law School · Gieß
 
 ## Awards
 
-- International Fellow, India School on Internet Governance (inSIG) 2025, Goa (2025)
+- International Fellow, India School on Internet Governance (inSIG) 2025, Goa (2025) ([Internet Archive version](https://web.archive.org/web/20250808200823/https://insig.in/fellows-2025/))
 - 2nd Novice Best Speaker, Dipo Open British Parliamentary debating competition, Semarang (2020)
 - Novice Semi-Finalist, Java Overland English Debating competition (JOVED), Bandung (2020)
 - Top 30 Oralist, Indonesian National Rounds of the Philip C. Jessup International Law Moot Court Competition, Indonesia Society for International Law, Jakarta (2020)
