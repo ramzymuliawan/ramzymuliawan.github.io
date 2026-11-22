@@ -224,6 +224,25 @@ cv:
         releaseDate: 2021-02
 
     Certificates:
+      - name: Internet Policy and Mobilization (Internet Policy Subtrack)
+        issuer: Internet Society
+        date: November 2026
+        url: https://certificates.isoc.org/520d9cf9-508f-4c96-8a51-a160446942b7
+
+      - name: Digital Rights in Asia-Pacific Fellowship
+        issuer: EngageMedia
+        date: June 2026
+
+      - name: International Fellow
+        issuer: India School on Internet Governance (inSIG) 2025, Goa
+        date: 2025
+        url: https://insig.in/fellows-2025/
+        archive: https://web.archive.org/web/20250808200823/https://insig.in/fellows-2025/
+
+      - name: "Internet Rules: Unboxing Digital Laws in Southeast Asia (workshop)"
+        issuer: Association for Progressive Communications (APC)
+        date: November 2023
+
       - name: Foundations of Intercultural Learning and Global Competence
         issuer: AFS Intercultural Programs, New York City
         date: 2023
@@ -239,12 +258,6 @@ cv:
         date: 2023
 
     Awards:
-      - title: International Fellow
-        awarder: India School on Internet Governance (inSIG) 2025, Goa
-        date: 2025
-        url: https://insig.in/fellows-2025/
-        archive: https://web.archive.org/web/20250808200823/https://insig.in/fellows-2025/
-
       - title: 2nd Novice Best Speaker
         awarder: Dipo Open British Parliamentary debating competition, Semarang
         date: 2020

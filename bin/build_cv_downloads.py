@@ -125,10 +125,14 @@ def build_markdown(cv, talks):
             out.append(f"- {t['outlet']}: {link}{when}")
         out.append("")
 
-    out.extend(["## Certificates", ""])
+    out.extend(["## Licenses, fellowships, and certifications", ""])
     for c in s["Certificates"]:
         when = f" ({c['date']})" if c.get("date") else ""
-        name = f"[{c['name']}]{{lang={c['lang']}}}" if c.get("lang") else c["name"]
+        name = f"[{c['name']}]({c['url']})" if c.get("url") else c["name"]
+        if c.get("lang"):
+            name = f"[{name}]{{lang={c['lang']}}}"
+        if c.get("archive"):
+            name += f" ([Internet Archive version]({c['archive']}))"
         out.append(f"- {name}, {c['issuer']}{when}")
     out.append("")
 
