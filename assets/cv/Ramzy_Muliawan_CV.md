@@ -77,7 +77,7 @@ Universitas Andalas · Padang · Sep 2019 – Jan 2020
 
 #### Indonesia School on Internet Governance (IDSIG)
 
-- **Organizing Committee Member, inaugural edition** · Online · Mar 2025
+- **Volunteer Organizer, 2025 edition (representing SAFEnet)** · Online · Mar 2025
 
 ### Other
 
@@ -143,6 +143,7 @@ Justus-Liebig-Universität Gießen and University of Wisconsin Law School · Gie
 
 ### Digital rights
 
+- Indonesia School on Internet Governance (IDSIG) 2026: [Infrastruktur publik digital dan hak asasi manusia di ruang maya](https://docs.google.com/presentation/d/11xS2fUyRHD-MLd9GRTstrqUMmz4a1pv9oQrN3eqoeW8/edit) (10 Oct 2026)
 - Asia Pacific Regional Internet Governance Forum (APrIGF) 2026: [Closing the Last-Mile Gap: A Civil Society Approach to Internet Quality Measurement in Rural Indonesia](https://www.youtube.com/watch?v=WGy1HVO8XZM) (6 Oct 2026)
 - Faculty of Law, Universitas Andalas, 75th anniversary international seminar (Padang and online): [Rethinking Cross-Border Privacy Enforcement: The Rise of Multi-Regulatory Governance](https://fhuk.unand.ac.id/agenda/40/international-seminar-rethinking-cross-border-privacy-enforcement.html) (24 Aug 2026)
 - Students For Liberty Indonesia and Garis Literasi, Universitas Sumatera Utara (online): [Apa Pentingnya Kebebasan Kita di Ruang Digital? Refleksi atas Kasus Pelanggaran Hak Digital di Indonesia](https://www.youtube.com/watch?v=in5k8IFsCBA&t=519s) (16 Mar 2026)
