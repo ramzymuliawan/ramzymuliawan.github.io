@@ -17,12 +17,14 @@ jobs:
       - name: Download and resize covers
         run: |
           set -u
+          sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick >/dev/null
+          IM=$(command -v magick || command -v convert)
           mkdir -p assets/img/talks
           fetch() {
             out="$1"; url="$2"
             if [ -f "$out" ]; then echo "keep $out"; return; fi
             if curl -fsSL -A "ramzymuliawan.github.io slide-cover fetch" -o /tmp/cover "$url"; then
-              convert /tmp/cover[0] -resize 960x -strip -quality 82 "$out" && echo "wrote $out"
+              "$IM" "/tmp/cover[0]" -resize 960x -strip -quality 82 "$out" && echo "wrote $out"
             else
               echo "::warning::could not download $url"
             fi
