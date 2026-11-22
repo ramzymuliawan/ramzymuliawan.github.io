@@ -278,3 +278,44 @@ html body .cv-contents ul {
   flex-wrap: wrap;
   gap: 0.25rem 1rem;
 }
+
+/* CV download toggle: one segmented control, three formats. */
+html body .cv-download {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+  margin: 0.25rem 0 1.25rem;
+  border: 1px solid var(--site-accent);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+html body .cv-download-label {
+  padding: 0.35rem 0.9rem;
+  background: var(--site-accent);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+html body [role="main"] .cv-download-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 32px;
+  padding: 0.35rem 0.9rem;
+  color: var(--site-accent);
+  text-decoration: none;
+  border-left: 1px solid var(--site-accent);
+}
+
+html body [role="main"] .cv-download-option:hover,
+html body [role="main"] .cv-download-option:focus-visible {
+  background: var(--site-accent-soft);
+  text-decoration: underline;
+}
+
+html body .cv-ext {
+  color: #475569; /* 6.0:1 on the hover background, 7.6:1 on white */
+  font-size: 0.85em;
+}
