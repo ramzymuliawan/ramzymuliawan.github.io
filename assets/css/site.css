@@ -1,0 +1,105 @@
+/*
+ * Site-wide type and colour.
+ * Loaded through third_party_libraries.google_fonts.url.fonts in _config.yml.
+ * Plus Jakarta Sans: SIL Open Font License 1.1 (assets/fonts/plus-jakarta-sans/OFL.txt).
+ */
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/assets/fonts/plus-jakarta-sans/PlusJakartaSans-Variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/assets/fonts/plus-jakarta-sans/PlusJakartaSans-Italic-Variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --site-font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --site-accent: #0f766e;
+  --site-accent-soft: #e6f6f3;
+  --site-ink: #1e293b;
+  --site-muted: #64748b;
+  --site-line: #e2e8f0;
+
+  --global-bg-color: #ffffff;
+  --global-card-bg-color: #ffffff;
+  --global-text-color: var(--site-ink);
+  --global-text-color-light: var(--site-muted);
+  --global-theme-color: var(--site-accent);
+  --global-hover-color: #0d9488;
+  --global-hover-text-color: #ffffff;
+  --global-divider-color: var(--site-line);
+  --global-footer-bg-color: #ffffff;
+  --global-footer-text-color: var(--site-muted);
+  --global-footer-link-color: var(--site-accent);
+  --global-highlight-color: var(--site-accent);
+}
+
+html,
+body {
+  font-family: var(--site-font);
+}
+
+body {
+  font-weight: 400;
+  color: var(--site-ink);
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+.post-title,
+.navbar-brand {
+  font-family: var(--site-font);
+  letter-spacing: -0.01em;
+}
+
+/* The theme sets this block in monospace; keep it in the site font. */
+.profile .more-info {
+  font-family: var(--site-font);
+}
+
+a {
+  color: var(--site-accent);
+}
+
+a:hover {
+  color: #0d9488;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--site-line);
+  box-shadow: none;
+}
+
+footer,
+footer.fixed-bottom {
+  background-color: #ffffff;
+  color: var(--site-muted);
+  border-top: 1px solid var(--site-line);
+}
+
+footer a {
+  color: var(--site-accent);
+}
+
+.publications .abbr .badge,
+.badge {
+  background-color: var(--site-accent-soft);
+  color: var(--site-accent);
+}
+
+.card {
+  border-color: var(--site-line);
+}
